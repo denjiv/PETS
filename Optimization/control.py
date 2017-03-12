@@ -4,6 +4,7 @@
 import json
 from pprint import pprint
 import numpy as np
+import ESS
 # Charge depleading - electric
 
 ''' Constants | Global variables '''
@@ -86,24 +87,37 @@ def control(P_req, P1, P_h, SOC):
 
 def main(file_json):
     SOC = 0.3
-    P_dist = []
+    #P_dist = []
     P_d = json.loads(open(file_json).read())
-    f1=open('./log', 'w+')
+    f1 = open('./log', 'w+')
+
+    # Initialize ESS
+    MAX_PACK_CAPACITY = 19000.0
+    INIT_PACK_CAPACITY = 18000.0
+    R_int_TABLE = [0.05691, 0.059045, 0.051065, 0.049735, 0.04886, 0.04865,
+     0.04823, 0.047845, 0.046725, 0.04711, 0.05495]
+    V_OC_TABLE = [270.165, 335.685, 339.255, 342.195, 345.45, 345.555, 345.765,
+     346.605, 349.965, 350.175, 360.36]
+    battery = ESS.ESS(MAX_PACK_CAPACITY, INIT_PACK_CAPACITY, V_OC_TABLE, R_int_TABLE)
+
 
     # Choose the P1 values
     for P1 in np.arange(P_OPT, P2, step_size):
         # Choose the P_h values
         for P_h in np.arange(P_OPT, P1, step_size):
-            f1.write('\t for P1 ' + str(P1) + ':\n')
+            f1.write('for P1 ' + str(P1) + ':\n')
             # Iterate through the P_d values
             for i in range(0, len(P_d)):
                 P_req = P_d[str(i)]['Power']
-                P_dist.append(control(P_req, P1, P_h, SOC))
-                f1.write('for P_h of ' + str(P_h) + ':\n')
-                for item in P_dist:
-                    f1.write('\t\t P_e:' + str(item[0]) + '\n')
-                    f1.write('\t\t P_batt:' + str(item[1]) + '\n')
-                P_dist = []
+                # P_dist.append(
+                P_dist = control(P_req, P1, P_h, SOC)
+                f1.write('\tfor P_h of ' + str(P_h) + ':\n')
+                f1.write('\t\t P_e:' + str(P_dist[0]) + '\n')
+                f1.write('\t\t P_batt:' + str(P_dist[1]) + '\n')
+                P_loss = battery.P_loss + 
+                # Update SOC
+
+                #P_dist = []
 
 
 
