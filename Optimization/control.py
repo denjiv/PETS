@@ -5,11 +5,11 @@ import json
 from pprint import pprint
 import numpy as np
 # Charge depleading - electric
-P_h_max = 100
-P_E_MAX = 120
+P_h_max = 50
+P_E_MAX = 78
 P2 = P_E_MAX
-P_OPT = 50
-P_l = 60
+P_OPT = 20
+P_l = 10
 
 def CD_E(P_req):
     '''Return power provided by the engine and battery in charge
@@ -83,11 +83,6 @@ def control(P_req, P1, P_h, SOC):
 
 def main(file_json):
     step_size = 0.5
-    P_h_max = 100
-    P_E_MAX = 120
-    P2 = P_E_MAX
-    P_OPT = 50
-    P_l = 60
     SOC = 0.3
     P_dist = []
     P_d = json.loads(open(file_json).read())
