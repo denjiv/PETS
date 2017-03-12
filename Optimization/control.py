@@ -76,9 +76,9 @@ def control(P_req, P1, P_h, SOC):
         P_batt = power form the battery
     '''
 
-    if (SOC >= 0.4):
+    if (SOC >= 40):
         P_dist = CD_E(P_req)
-    elif (SOC < 0.4 and SOC >= 0.2):
+    elif (SOC < 40 and SOC >= 20):
         P_dist = CD_H(P_req, P1, P_h)
     else:
         P_dist = CS(P_req)
@@ -89,9 +89,13 @@ def main(file_json):
     P_dist = []
     P_d = json.loads(open(file_json).read())
     f1=open('./log', 'w+')
+
+    # Choose the P1 values
     for P1 in np.arange(P_OPT, P2, step_size):
+        # Choose the P_h values
         for P_h in np.arange(P_OPT, P1, step_size):
             f1.write('\t for P1 ' + str(P1) + ':\n')
+            # Iterate through the P_d values
             for i in range(0, len(P_d)):
                 P_req = P_d[str(i)]['Power']
                 P_dist.append(control(P_req, P1, P_h, SOC))
