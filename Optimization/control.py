@@ -5,11 +5,14 @@ import json
 from pprint import pprint
 import numpy as np
 # Charge depleading - electric
+
+''' Constants | Global variables '''
 P_h_max = 50
 P_E_MAX = 78
 P2 = P_E_MAX
 P_OPT = 20
-P_l = 10
+P_l = P_OPT
+step_size = 0.5
 
 def CD_E(P_req):
     '''Return power provided by the engine and battery in charge
@@ -50,7 +53,7 @@ def CD_H(P_req, P1, P_h):
         P_batt = 0
     elif (P_req > 0 and P_req <= P_l):
         P_e = P_OPT
-        P_batt = P_e - P_req;
+        P_batt = P_req - P_e
     elif (P_req <= 0):
         P_batt = P_req
         P_e = 0
@@ -82,16 +85,22 @@ def control(P_req, P1, P_h, SOC):
     return P_dist
 
 def main(file_json):
-    step_size = 0.5
     SOC = 0.3
     P_dist = []
     P_d = json.loads(open(file_json).read())
-    for P_h in np.arange(P_l, P_h_max, step_size):
-        for P1 in np.arange(P_l, P2, step_size):
+    f1=open('./log', 'w+')
+    for P1 in np.arange(P_OPT, P2, step_size):
+        for P_h in np.arange(P_OPT, P1, step_size):
+            f1.write('\t for P1 ' + str(P1) + ':\n')
             for i in range(0, len(P_d)):
                 P_req = P_d[str(i)]['Power']
                 P_dist.append(control(P_req, P1, P_h, SOC))
-    print P_dist
+                f1.write('for P_h of ' + str(P_h) + ':\n')
+                for item in P_dist:
+                    f1.write('\t\t P_e:' + str(item[0]) + '\n')
+                    f1.write('\t\t P_batt:' + str(item[1]) + '\n')
+                P_dist = []
 
 
-main('PowerTrace.json')
+
+main('Powertrace.json')
