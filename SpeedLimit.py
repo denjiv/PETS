@@ -26,7 +26,7 @@ class SpeedLimit:
             lat = in_data[i]["Latitude"]
             lon = in_data[i]["Longitude"]
             speed_limit = get_speed_limit(lat, lon)
-            if speed_limit < 10:
+            if speed_limit <= 0:
                 speed_limit = self.speed_limit_data[i - 1]
 
             self.speed_limit_data.append(speed_limit)
@@ -58,7 +58,7 @@ def get_speed_limit(lat, lon):
 
     api = overpy.Overpass()
 
-    # fetch all ways and nodes 47.653750, -122.305129
+    # fetch closest way to designated lat, lon
     result = api.query("""<query type="way">
         <around lat=\"""" + str(lat) + """\" lon=\"""" + str(lon) + """\" radius="5"/>
         <has-kv k="highway" v=""/>
