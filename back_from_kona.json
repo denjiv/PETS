@@ -1,0 +1,4432 @@
+[
+{
+    "Accel_Pedal_Pos": 0.392156862745, 
+    "Power": 4.230832413393253, 
+    "Latitude": 47.690998, 
+    "RPM": 1310.0, 
+    "Speed": 43.0, 
+    "Torque": 30.839215686266797, 
+    "Longitude": -122.32305416666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.35294117647, 
+    "Power": 5.567258713124416, 
+    "Latitude": 47.69088933333333, 
+    "RPM": 1326.0, 
+    "Speed": 43.0, 
+    "Torque": 40.0909803920682, 
+    "Longitude": -122.32305183333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 4.649474895525439, 
+    "Latitude": 47.69078066666667, 
+    "RPM": 1308.75, 
+    "Speed": 43.0, 
+    "Torque": 33.923137254932804, 
+    "Longitude": -122.32305033333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.74509803922, 
+    "Power": 6.134787740499333, 
+    "Latitude": 47.69067183333333, 
+    "RPM": 1225.5, 
+    "Speed": 44.0, 
+    "Torque": 47.800784313733196, 
+    "Longitude": -122.32305016666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.35294117647, 
+    "Power": 4.596185784963165, 
+    "Latitude": 47.690562, 
+    "RPM": 1265.0, 
+    "Speed": 44.0, 
+    "Torque": 34.694117647001, 
+    "Longitude": -122.32305233333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.52941176471, 
+    "Power": 8.481204167324282, 
+    "Latitude": 47.690452, 
+    "RPM": 1281.0, 
+    "Speed": 44.0, 
+    "Torque": 63.2203921568666, 
+    "Longitude": -122.32305366666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.13725490196, 
+    "Power": 7.1227355536653105, 
+    "Latitude": 47.6903415, 
+    "RPM": 1160.75, 
+    "Speed": 45.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.3230525, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.013173075029962, 
+    "Latitude": 47.69023216666667, 
+    "RPM": 1171.5, 
+    "Speed": 46.0, 
+    "Torque": 40.86196078433299, 
+    "Longitude": -122.32305066666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.17647058824, 
+    "Power": 4.577655707882431, 
+    "Latitude": 47.690121500000004, 
+    "RPM": 1318.5, 
+    "Speed": 46.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.32304833333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 4.730760974377285, 
+    "Latitude": 47.69000966666667, 
+    "RPM": 1195.75, 
+    "Speed": 46.0, 
+    "Torque": 37.778039215667, 
+    "Longitude": -122.32304733333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.74509803922, 
+    "Power": 5.777629588191883, 
+    "Latitude": 47.68989533333333, 
+    "RPM": 1233.75, 
+    "Speed": 46.0, 
+    "Torque": 44.716862745067196, 
+    "Longitude": -122.32304533333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.96078431373, 
+    "Power": 6.032852131297422, 
+    "Latitude": 47.68977983333333, 
+    "RPM": 1288.25, 
+    "Speed": 46.0, 
+    "Torque": 44.716862745067196, 
+    "Longitude": -122.3230445, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.17647058824, 
+    "Power": 5.238077343885254, 
+    "Latitude": 47.689666, 
+    "RPM": 1297.5, 
+    "Speed": 46.0, 
+    "Torque": 38.549019607931804, 
+    "Longitude": -122.3230405, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 5.027201837080022, 
+    "Latitude": 47.689552666666664, 
+    "RPM": 1324.75, 
+    "Speed": 45.0, 
+    "Torque": 36.236078431334, 
+    "Longitude": -122.32303216666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.78431372549, 
+    "Power": 4.51613100753197, 
+    "Latitude": 47.68943816666667, 
+    "RPM": 1331.75, 
+    "Speed": 45.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.32302916666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.848964329354705, 
+    "Latitude": 47.6892045, 
+    "RPM": 1341.5, 
+    "Speed": 45.0, 
+    "Torque": 41.6329411764012, 
+    "Longitude": -122.3230265, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.358948316662576, 
+    "Latitude": 47.689087666666666, 
+    "RPM": 1316.75, 
+    "Speed": 44.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.32302516666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.421018019292098, 
+    "Latitude": 47.688852833333335, 
+    "RPM": 1335.5, 
+    "Speed": 42.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.32302516666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 4.642753200884172, 
+    "Latitude": 47.68873683333333, 
+    "RPM": 1337.25, 
+    "Speed": 43.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.3230255, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.594126887519382, 
+    "Latitude": 47.68850883333333, 
+    "RPM": 1354.75, 
+    "Speed": 43.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.32302783333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.92156862745, 
+    "Power": 12.738519653836903, 
+    "Latitude": 47.688395166666666, 
+    "RPM": 1314.75, 
+    "Speed": 44.0, 
+    "Torque": 92.5176470588004, 
+    "Longitude": -122.32302616666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.170276605949649, 
+    "Latitude": 47.6881725, 
+    "RPM": 1291.25, 
+    "Speed": 45.0, 
+    "Torque": 30.839215686266797, 
+    "Longitude": -122.32302083333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.541564446658301, 
+    "Latitude": 47.68806516666667, 
+    "RPM": 1339.25, 
+    "Speed": 46.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.32301783333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.487306443188796, 
+    "Latitude": 47.687851333333334, 
+    "RPM": 1323.25, 
+    "Speed": 45.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.32302266666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.35294117647, 
+    "Power": 5.3766290313014675, 
+    "Latitude": 47.687742, 
+    "RPM": 1359.0, 
+    "Speed": 46.0, 
+    "Torque": 37.778039215667, 
+    "Longitude": -122.32302333333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 0.0, 
+    "Latitude": 47.687634, 
+    "RPM": 1324.5, 
+    "Speed": 47.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.3230215, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.366477422066931, 
+    "Latitude": 47.687521, 
+    "RPM": 1352.0, 
+    "Speed": 47.0, 
+    "Torque": 30.839215686266797, 
+    "Longitude": -122.3230195, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.466959691887732, 
+    "Latitude": 47.687406833333334, 
+    "RPM": 1317.25, 
+    "Speed": 46.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.32301533333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.449196655025662, 
+    "Latitude": 47.68729066666667, 
+    "RPM": 1281.5, 
+    "Speed": 41.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.32301183333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.642510977657457, 
+    "Latitude": 47.687175, 
+    "RPM": 1277.75, 
+    "Speed": 34.0, 
+    "Torque": 34.694117647001, 
+    "Longitude": -122.32300766666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.53312700415699, 
+    "Latitude": 47.687060833333334, 
+    "RPM": 1276.0, 
+    "Speed": 26.0, 
+    "Torque": 33.923137254932804, 
+    "Longitude": -122.32300716666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.60666035850687, 
+    "Latitude": 47.686945333333334, 
+    "RPM": 1240.0, 
+    "Speed": 20.0, 
+    "Torque": 43.174901960734196, 
+    "Longitude": -122.32300666666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.452929348676844, 
+    "Latitude": 47.686829333333336, 
+    "RPM": 1206.0, 
+    "Speed": 16.0, 
+    "Torque": 43.174901960734196, 
+    "Longitude": -122.3230055, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 6.061212434461633, 
+    "Latitude": 47.686710833333336, 
+    "RPM": 950.25, 
+    "Speed": 10.0, 
+    "Torque": 60.9074509804654, 
+    "Longitude": -122.32300466666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.515059607123854, 
+    "Latitude": 47.686591666666665, 
+    "RPM": 794.25, 
+    "Speed": 4.0, 
+    "Torque": 66.3043137255326, 
+    "Longitude": -122.32300266666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.911479689065075, 
+    "Latitude": 47.68635616666667, 
+    "RPM": 790.0, 
+    "Speed": 2.0, 
+    "Torque": 59.36549019613239, 
+    "Longitude": -122.32299833333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.392156862745, 
+    "Power": 4.820726718963735, 
+    "Latitude": 47.6862475, 
+    "RPM": 829.25, 
+    "Speed": 6.0, 
+    "Torque": 55.51058823520159, 
+    "Longitude": -122.32299883333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.682982442303452, 
+    "Latitude": 47.68606316666666, 
+    "RPM": 1000.0, 
+    "Speed": 10.0, 
+    "Torque": 44.716862745067196, 
+    "Longitude": -122.32299816666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.921572323635896, 
+    "Latitude": 47.685991666666666, 
+    "RPM": 835.0, 
+    "Speed": 7.0, 
+    "Torque": 56.2815686274664, 
+    "Longitude": -122.3229965, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.041472822371657, 
+    "Latitude": 47.68588333333334, 
+    "RPM": 780.5, 
+    "Speed": 5.0, 
+    "Torque": 61.678431372533595, 
+    "Longitude": -122.322994, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.144336953952318, 
+    "Latitude": 47.68584033333333, 
+    "RPM": 758.5, 
+    "Speed": 3.0, 
+    "Torque": 64.7623529411996, 
+    "Longitude": -122.32299366666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.980715162240806, 
+    "Latitude": 47.685781666666664, 
+    "RPM": 822.5, 
+    "Speed": 6.0, 
+    "Torque": 57.8235294117994, 
+    "Longitude": -122.322992, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.844504966033792, 
+    "Latitude": 47.68577033333333, 
+    "RPM": 759.5, 
+    "Speed": 4.0, 
+    "Torque": 60.9074509804654, 
+    "Longitude": -122.32299133333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.047932108498975, 
+    "Latitude": 47.685758666666665, 
+    "RPM": 781.5, 
+    "Speed": 4.0, 
+    "Torque": 61.678431372533595, 
+    "Longitude": -122.3229905, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.207799440154726, 
+    "Latitude": 47.68574433333333, 
+    "RPM": 750.0, 
+    "Speed": 2.0, 
+    "Torque": 66.3043137255326, 
+    "Longitude": -122.32299, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.865053570017694, 
+    "Latitude": 47.6857235, 
+    "RPM": 772.5, 
+    "Speed": 0.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.32298966666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.717297399853722, 
+    "Latitude": 47.685682666666665, 
+    "RPM": 768.75, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.32299016666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.881181600075522, 
+    "Latitude": 47.685669, 
+    "RPM": 765.25, 
+    "Speed": 0.0, 
+    "Torque": 60.9074509804654, 
+    "Longitude": -122.32299183333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.921976029016274, 
+    "Latitude": 47.685647833333334, 
+    "RPM": 762.0, 
+    "Speed": 0.0, 
+    "Torque": 61.678431372533595, 
+    "Longitude": -122.32299233333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.925749093198335, 
+    "Latitude": 47.685633333333335, 
+    "RPM": 764.5, 
+    "Speed": 0.0, 
+    "Torque": 74.01411764700099, 
+    "Longitude": -122.32299216666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.35294117647, 
+    "Power": 8.284498719476472, 
+    "Latitude": 47.68560866666667, 
+    "RPM": 783.25, 
+    "Speed": 3.0, 
+    "Torque": 100.9984313725336, 
+    "Longitude": -122.32299116666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 6.770341124881522, 
+    "Latitude": 47.685598166666665, 
+    "RPM": 986.5, 
+    "Speed": 8.0, 
+    "Torque": 65.53333333326779, 
+    "Longitude": -122.3229915, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.698705185826257, 
+    "Latitude": 47.68558316666667, 
+    "RPM": 882.25, 
+    "Speed": 5.0, 
+    "Torque": 61.678431372533595, 
+    "Longitude": -122.32299116666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.832171766574648, 
+    "Latitude": 47.68558216666667, 
+    "RPM": 893.25, 
+    "Speed": 5.0, 
+    "Torque": 51.65568627446739, 
+    "Longitude": -122.32299083333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.724422799875273, 
+    "Latitude": 47.685579, 
+    "RPM": 991.75, 
+    "Speed": 9.0, 
+    "Torque": 45.48784313733199, 
+    "Longitude": -122.32299233333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.83713734278689, 
+    "Latitude": 47.685577, 
+    "RPM": 868.25, 
+    "Speed": 8.0, 
+    "Torque": 53.1976470588004, 
+    "Longitude": -122.322994, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.995975225706989, 
+    "Latitude": 47.685573833333336, 
+    "RPM": 745.5, 
+    "Speed": 4.0, 
+    "Torque": 63.9913725489348, 
+    "Longitude": -122.32299566666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.9409905525621225, 
+    "Latitude": 47.68557216666667, 
+    "RPM": 755.5, 
+    "Speed": 2.0, 
+    "Torque": 62.4494117647984, 
+    "Longitude": -122.322996, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.620408107951045, 
+    "Latitude": 47.68556616666667, 
+    "RPM": 763.0, 
+    "Speed": 0.0, 
+    "Torque": 57.8235294117994, 
+    "Longitude": -122.32299616666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.627977583881502, 
+    "Latitude": 47.685553, 
+    "RPM": 764.25, 
+    "Speed": 0.0, 
+    "Torque": 57.8235294117994, 
+    "Longitude": -122.322995, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.056167698314375, 
+    "Latitude": 47.685532333333335, 
+    "RPM": 745.5, 
+    "Speed": 2.0, 
+    "Torque": 64.7623529411996, 
+    "Longitude": -122.32299483333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.962972310656836, 
+    "Latitude": 47.685516166666666, 
+    "RPM": 1205.25, 
+    "Speed": 6.0, 
+    "Torque": 39.32, 
+    "Longitude": -122.32299416666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.869856082939561, 
+    "Latitude": 47.685489833333335, 
+    "RPM": 920.25, 
+    "Speed": 7.0, 
+    "Torque": 60.9074509804654, 
+    "Longitude": -122.32299316666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.096921756723522, 
+    "Latitude": 47.68546883333333, 
+    "RPM": 864.75, 
+    "Speed": 3.0, 
+    "Torque": 56.2815686274664, 
+    "Longitude": -122.32299216666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.044722650697317, 
+    "Latitude": 47.6854275, 
+    "RPM": 991.75, 
+    "Speed": 8.0, 
+    "Torque": 48.5717647058014, 
+    "Longitude": -122.32298866666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.429857586055197, 
+    "Latitude": 47.68541416666667, 
+    "RPM": 830.25, 
+    "Speed": 7.0, 
+    "Torque": 62.4494117647984, 
+    "Longitude": -122.322988, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.229599530825869, 
+    "Latitude": 47.685403, 
+    "RPM": 762.0, 
+    "Speed": 0.0, 
+    "Torque": 65.53333333326779, 
+    "Longitude": -122.32299, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.084871151048379, 
+    "Latitude": 47.685402, 
+    "RPM": 777.5, 
+    "Speed": 0.0, 
+    "Torque": 62.4494117647984, 
+    "Longitude": -122.32299066666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.49019607843, 
+    "Power": 22.21792575105895, 
+    "Latitude": 47.685402, 
+    "RPM": 1528.75, 
+    "Speed": 5.0, 
+    "Torque": 138.7764705882006, 
+    "Longitude": -122.32299133333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 8.62745098039, 
+    "Power": 32.072959521869855, 
+    "Latitude": 47.685384666666664, 
+    "RPM": 2244.25, 
+    "Speed": 17.0, 
+    "Torque": 136.4635294117994, 
+    "Longitude": -122.3229915, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 8.62745098039, 
+    "Power": 29.246476838889176, 
+    "Latitude": 47.68534783333333, 
+    "RPM": 1990.25, 
+    "Speed": 27.0, 
+    "Torque": 140.31843137253358, 
+    "Longitude": -122.3229905, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 9.80392156863, 
+    "Power": 35.66523094575861, 
+    "Latitude": 47.6853375, 
+    "RPM": 2186.75, 
+    "Speed": 34.0, 
+    "Torque": 155.738039215667, 
+    "Longitude": -122.32298933333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.35294117647, 
+    "Power": 10.276724228571037, 
+    "Latitude": 47.68530366666667, 
+    "RPM": 1988.75, 
+    "Speed": 41.0, 
+    "Torque": 49.34274509806619, 
+    "Longitude": -122.3229895, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 12.5490196078, 
+    "Power": 30.852578334450403, 
+    "Latitude": 47.685284833333334, 
+    "RPM": 1498.5, 
+    "Speed": 43.0, 
+    "Torque": 196.6, 
+    "Longitude": -122.32299, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 13.3333333333, 
+    "Power": 44.24570626675603, 
+    "Latitude": 47.6852745, 
+    "RPM": 2149.0, 
+    "Speed": 48.0, 
+    "Torque": 196.6, 
+    "Longitude": -122.32298866666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.52941176471, 
+    "Power": 11.054139684511973, 
+    "Latitude": 47.6852745, 
+    "RPM": 1649.5, 
+    "Speed": 53.0, 
+    "Torque": 63.9913725489348, 
+    "Longitude": -122.322989, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.74509803922, 
+    "Power": 7.711802263213724, 
+    "Latitude": 47.6852505, 
+    "RPM": 1345.25, 
+    "Speed": 54.0, 
+    "Torque": 54.739607843133406, 
+    "Longitude": -122.32298966666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.12641243495678, 
+    "Latitude": 47.685212, 
+    "RPM": 1322.75, 
+    "Speed": 53.0, 
+    "Torque": 37.0070588235988, 
+    "Longitude": -122.32298683333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.17647058824, 
+    "Power": 4.361431104767758, 
+    "Latitude": 47.6851545, 
+    "RPM": 1317.5, 
+    "Speed": 52.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.322974, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.74509803922, 
+    "Power": 6.099584631100246, 
+    "Latitude": 47.68500816666667, 
+    "RPM": 1302.5, 
+    "Speed": 50.0, 
+    "Torque": 44.716862745067196, 
+    "Longitude": -122.32288766666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 4.3137254902, 
+    "Power": 12.866736483459338, 
+    "Latitude": 47.684928666666664, 
+    "RPM": 1171.75, 
+    "Speed": 49.0, 
+    "Torque": 104.85333333326778, 
+    "Longitude": -122.32280283333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 4.70588235294, 
+    "Power": 13.474514937508909, 
+    "Latitude": 47.68476116666667, 
+    "RPM": 1175.25, 
+    "Speed": 48.0, 
+    "Torque": 109.47921568626681, 
+    "Longitude": -122.32260333333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.13725490196, 
+    "Power": 7.109251793885356, 
+    "Latitude": 47.684671, 
+    "RPM": 1174.0, 
+    "Speed": 48.0, 
+    "Torque": 57.8235294117994, 
+    "Longitude": -122.3224955, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.658356413950511, 
+    "Latitude": 47.6844695, 
+    "RPM": 1311.25, 
+    "Speed": 46.0, 
+    "Torque": 33.923137254932804, 
+    "Longitude": -122.32225166666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.74509803922, 
+    "Power": 6.261187895903338, 
+    "Latitude": 47.684365666666665, 
+    "RPM": 1250.75, 
+    "Speed": 43.0, 
+    "Torque": 47.800784313733196, 
+    "Longitude": -122.32212616666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.74509803922, 
+    "Power": 7.108928829568178, 
+    "Latitude": 47.68415666666667, 
+    "RPM": 1158.5, 
+    "Speed": 42.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.32187683333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 6.191104641421909, 
+    "Latitude": 47.68405333333333, 
+    "RPM": 1236.75, 
+    "Speed": 42.0, 
+    "Torque": 47.800784313733196, 
+    "Longitude": -122.32175566666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.337249152343451, 
+    "Latitude": 47.68385333333333, 
+    "RPM": 1279.0, 
+    "Speed": 35.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.32152583333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.392156862745, 
+    "Power": 4.601958771936414, 
+    "Latitude": 47.683755166666664, 
+    "RPM": 1325.5, 
+    "Speed": 31.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.32141783333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 8.62745098039, 
+    "Power": 25.678770887546296, 
+    "Latitude": 47.683657833333335, 
+    "RPM": 1407.25, 
+    "Speed": 30.0, 
+    "Torque": 174.2415686274664, 
+    "Longitude": -122.32131133333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 8.23529411765, 
+    "Power": 26.09034852548343, 
+    "Latitude": 47.68346366666667, 
+    "RPM": 1683.0, 
+    "Speed": 34.0, 
+    "Torque": 148.02823529419857, 
+    "Longitude": -122.32110283333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.56519981568627, 
+    "Latitude": 47.68337183333333, 
+    "RPM": 1300.5, 
+    "Speed": 35.0, 
+    "Torque": 40.86196078433299, 
+    "Longitude": -122.3209945, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.478707518519784, 
+    "Latitude": 47.683230333333334, 
+    "RPM": 1290.0, 
+    "Speed": 30.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.32074283333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 4.70588235294, 
+    "Power": 22.246185127884516, 
+    "Latitude": 47.68319116666667, 
+    "RPM": 1287.5, 
+    "Speed": 27.0, 
+    "Torque": 164.989803921665, 
+    "Longitude": -122.3205965, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 6.538210529701144, 
+    "Latitude": 47.683156, 
+    "RPM": 1327.5, 
+    "Speed": 29.0, 
+    "Torque": 47.029803921665, 
+    "Longitude": -122.32029416666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.925991316431259, 
+    "Latitude": 47.683146, 
+    "RPM": 1223.25, 
+    "Speed": 27.0, 
+    "Torque": 46.2588235294002, 
+    "Longitude": -122.32015683333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.043269311327078, 
+    "Latitude": 47.68312983333333, 
+    "RPM": 1224.75, 
+    "Speed": 18.0, 
+    "Torque": 39.32, 
+    "Longitude": -122.31991766666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 10.9803921569, 
+    "Power": 35.15460419211833, 
+    "Latitude": 47.68312233333333, 
+    "RPM": 2083.25, 
+    "Speed": 18.0, 
+    "Torque": 161.1349019607342, 
+    "Longitude": -122.31980483333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 10.9803921569, 
+    "Power": 44.86494995364559, 
+    "Latitude": 47.683105, 
+    "RPM": 2864.25, 
+    "Speed": 28.0, 
+    "Torque": 149.57019607833502, 
+    "Longitude": -122.31955633333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 7.501532314511467, 
+    "Latitude": 47.68309416666666, 
+    "RPM": 2019.75, 
+    "Speed": 38.0, 
+    "Torque": 35.4650980392658, 
+    "Longitude": -122.319429, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.246173217945634, 
+    "Latitude": 47.683084666666666, 
+    "RPM": 1314.75, 
+    "Speed": 37.0, 
+    "Torque": 30.839215686266797, 
+    "Longitude": -122.31931116666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 0.0, 
+    "Latitude": 47.68307733333333, 
+    "RPM": 1352.0, 
+    "Speed": 38.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.31920233333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 10.9803921569, 
+    "Power": 33.462896970104715, 
+    "Latitude": 47.683071, 
+    "RPM": 1983.0, 
+    "Speed": 41.0, 
+    "Torque": 161.1349019607342, 
+    "Longitude": -122.31909916666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 11.3725490196, 
+    "Power": 45.433710282456246, 
+    "Latitude": 47.68306466666667, 
+    "RPM": 2617.25, 
+    "Speed": 50.0, 
+    "Torque": 165.76078431373318, 
+    "Longitude": -122.318993, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 19.6078431373, 
+    "Power": 55.26595488438337, 
+    "Latitude": 47.68305, 
+    "RPM": 2684.25, 
+    "Speed": 57.0, 
+    "Torque": 196.6, 
+    "Longitude": -122.318789, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 33.3333333333, 
+    "Power": 84.98613961963807, 
+    "Latitude": 47.68303616666667, 
+    "RPM": 4127.75, 
+    "Speed": 65.0, 
+    "Torque": 196.6, 
+    "Longitude": -122.31871966666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 17.356707382197875, 
+    "Latitude": 47.682967833333336, 
+    "RPM": 3908.5, 
+    "Speed": 75.0, 
+    "Torque": 42.403921568666, 
+    "Longitude": -122.31864233333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 7.368995837282629, 
+    "Latitude": 47.682906, 
+    "RPM": 2074.25, 
+    "Speed": 71.0, 
+    "Torque": 33.923137254932804, 
+    "Longitude": -122.3186315, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.804194983525015, 
+    "Latitude": 47.682729333333334, 
+    "RPM": 1451.25, 
+    "Speed": 66.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.3186625, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.065695145349098, 
+    "Latitude": 47.68263783333333, 
+    "RPM": 1568.5, 
+    "Speed": 64.0, 
+    "Torque": 30.839215686266797, 
+    "Longitude": -122.31869566666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.336177751930538, 
+    "Latitude": 47.68247, 
+    "RPM": 1652.25, 
+    "Speed": 65.0, 
+    "Torque": 30.839215686266797, 
+    "Longitude": -122.31883416666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.52006555385217, 
+    "Latitude": 47.682396833333335, 
+    "RPM": 1667.5, 
+    "Speed": 65.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.31893633333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.96078431373, 
+    "Power": 6.5763808736430205, 
+    "Latitude": 47.682332833333334, 
+    "RPM": 1662.25, 
+    "Speed": 64.0, 
+    "Torque": 37.778039215667, 
+    "Longitude": -122.3190765, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 9.01960784314, 
+    "Power": 33.58796489776243, 
+    "Latitude": 47.682217333333334, 
+    "RPM": 2506.0, 
+    "Speed": 66.0, 
+    "Torque": 127.98274509806619, 
+    "Longitude": -122.319446, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 8.23529411765, 
+    "Power": 28.023269713817804, 
+    "Latitude": 47.682173, 
+    "RPM": 2155.75, 
+    "Speed": 71.0, 
+    "Torque": 124.12784313733201, 
+    "Longitude": -122.31966683333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 7.05882352941, 
+    "Power": 14.091659356431403, 
+    "Latitude": 47.6821005, 
+    "RPM": 1961.0, 
+    "Speed": 76.0, 
+    "Torque": 68.6172549019338, 
+    "Longitude": -122.32018816666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 7.133797081156625, 
+    "Latitude": 47.68206083333333, 
+    "RPM": 1577.75, 
+    "Speed": 77.0, 
+    "Torque": 43.174901960734196, 
+    "Longitude": -122.32045666666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.74509803922, 
+    "Power": 9.963045146000594, 
+    "Latitude": 47.68195333333333, 
+    "RPM": 2127.5, 
+    "Speed": 78.0, 
+    "Torque": 44.716862745067196, 
+    "Longitude": -122.32093633333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 6.479370470106627, 
+    "Latitude": 47.68186683333333, 
+    "RPM": 1866.25, 
+    "Speed": 77.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.32114, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.392156862745, 
+    "Power": 5.964989256428561, 
+    "Latitude": 47.6816285, 
+    "RPM": 1759.0, 
+    "Speed": 74.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.321468, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.13725490196, 
+    "Power": 10.255812289715056, 
+    "Latitude": 47.68148133333333, 
+    "RPM": 1716.5, 
+    "Speed": 72.0, 
+    "Torque": 57.0525490195346, 
+    "Longitude": -122.3215745, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 14.1176470588, 
+    "Power": 53.27911884215818, 
+    "Latitude": 47.681164833333334, 
+    "RPM": 2587.75, 
+    "Speed": 72.0, 
+    "Torque": 196.6, 
+    "Longitude": -122.32166483333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 10.5882352941, 
+    "Power": 39.46058636255125, 
+    "Latitude": 47.681000833333336, 
+    "RPM": 2221.5, 
+    "Speed": 75.0, 
+    "Torque": 169.6156862744674, 
+    "Longitude": -122.32164366666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 11.3725490196, 
+    "Power": 40.395406547320526, 
+    "Latitude": 47.680829833333334, 
+    "RPM": 2204.0, 
+    "Speed": 78.0, 
+    "Torque": 175.0125490195346, 
+    "Longitude": -122.32159416666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.13725490196, 
+    "Power": 11.407644303098218, 
+    "Latitude": 47.6804645, 
+    "RPM": 1702.25, 
+    "Speed": 79.0, 
+    "Torque": 63.9913725489348, 
+    "Longitude": -122.32147133333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.09803921569, 
+    "Power": 16.65625835747919, 
+    "Latitude": 47.68027416666666, 
+    "RPM": 1574.75, 
+    "Speed": 79.0, 
+    "Torque": 100.9984313725336, 
+    "Longitude": -122.32140966666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 9.41176470588, 
+    "Power": 28.245469156595014, 
+    "Latitude": 47.679886333333336, 
+    "RPM": 1932.75, 
+    "Speed": 79.0, 
+    "Torque": 139.54745098046538, 
+    "Longitude": -122.32132133333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 8.23529411765, 
+    "Power": 30.45145666593419, 
+    "Latitude": 47.6796925, 
+    "RPM": 1995.5, 
+    "Speed": 80.0, 
+    "Torque": 145.71529411760082, 
+    "Longitude": -122.32132, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.88235294118, 
+    "Power": 19.73762043398123, 
+    "Latitude": 47.67931733333333, 
+    "RPM": 1597.75, 
+    "Speed": 81.0, 
+    "Torque": 117.96, 
+    "Longitude": -122.321282, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.09803921569, 
+    "Power": 18.12939948516142, 
+    "Latitude": 47.67913383333333, 
+    "RPM": 1581.25, 
+    "Speed": 82.0, 
+    "Torque": 109.47921568626681, 
+    "Longitude": -122.32125583333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.49019607843, 
+    "Power": 18.77407661122169, 
+    "Latitude": 47.67876733333333, 
+    "RPM": 1529.75, 
+    "Speed": 82.0, 
+    "Torque": 117.1890196079318, 
+    "Longitude": -122.32120783333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 6.27450980392, 
+    "Power": 18.406724897982283, 
+    "Latitude": 47.678578333333334, 
+    "RPM": 1509.75, 
+    "Speed": 82.0, 
+    "Torque": 116.418039215667, 
+    "Longitude": -122.32119016666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 7.05882352941, 
+    "Power": 13.838939786714839, 
+    "Latitude": 47.6783835, 
+    "RPM": 1767.0, 
+    "Speed": 82.0, 
+    "Torque": 74.78509803926579, 
+    "Longitude": -122.3211705, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 6.66666666667, 
+    "Power": 23.660365084365633, 
+    "Latitude": 47.67798416666667, 
+    "RPM": 1831.5, 
+    "Speed": 82.0, 
+    "Torque": 123.35686274506719, 
+    "Longitude": -122.3211505, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.74509803922, 
+    "Power": 11.312490944345813, 
+    "Latitude": 47.6777835, 
+    "RPM": 1574.25, 
+    "Speed": 82.0, 
+    "Torque": 68.6172549019338, 
+    "Longitude": -122.32114066666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 7.947949726993522, 
+    "Latitude": 47.6773825, 
+    "RPM": 1968.75, 
+    "Speed": 82.0, 
+    "Torque": 38.549019607931804, 
+    "Longitude": -122.321125, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.09803921569, 
+    "Power": 8.22267124007105, 
+    "Latitude": 47.67718033333333, 
+    "RPM": 1520.0, 
+    "Speed": 81.0, 
+    "Torque": 51.65568627446739, 
+    "Longitude": -122.32112083333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.754842000471923, 
+    "Latitude": 47.676770166666664, 
+    "RPM": 1472.25, 
+    "Speed": 80.0, 
+    "Torque": 30.839215686266797, 
+    "Longitude": -122.32112733333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 4.814126135945738, 
+    "Latitude": 47.6765645, 
+    "RPM": 1454.25, 
+    "Speed": 77.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.32113866666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.92156862745, 
+    "Power": 12.395228781434673, 
+    "Latitude": 47.676152, 
+    "RPM": 1434.75, 
+    "Speed": 75.0, 
+    "Torque": 82.49490196073421, 
+    "Longitude": -122.3211735, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 7.45098039216, 
+    "Power": 24.03609368428225, 
+    "Latitude": 47.6759455, 
+    "RPM": 1761.5, 
+    "Speed": 75.0, 
+    "Torque": 130.2956862744674, 
+    "Longitude": -122.32119683333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 10.5882352941, 
+    "Power": 31.98866583791526, 
+    "Latitude": 47.67146783333333, 
+    "RPM": 2491.75, 
+    "Speed": 79.0, 
+    "Torque": 122.585882352999, 
+    "Longitude": -122.32228933333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 7.225357462011274, 
+    "Latitude": 47.671269833333334, 
+    "RPM": 1598.0, 
+    "Speed": 79.0, 
+    "Torque": 43.174901960734196, 
+    "Longitude": -122.3223255, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 12.5490196078, 
+    "Power": 41.38383880697051, 
+    "Latitude": 47.6710705, 
+    "RPM": 2010.0, 
+    "Speed": 78.0, 
+    "Torque": 196.6, 
+    "Longitude": -122.32235633333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 15.6862745098, 
+    "Power": 53.14529050770778, 
+    "Latitude": 47.67087316666667, 
+    "RPM": 2581.25, 
+    "Speed": 81.0, 
+    "Torque": 196.6, 
+    "Longitude": -122.32238533333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.88235294118, 
+    "Power": 20.85229136687146, 
+    "Latitude": 47.670675333333335, 
+    "RPM": 2245.75, 
+    "Speed": 83.0, 
+    "Torque": 88.6627450980662, 
+    "Longitude": -122.32241566666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 5.111233112532385, 
+    "Latitude": 47.670473666666666, 
+    "RPM": 1544.0, 
+    "Speed": 82.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.32244733333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 4.70588235294, 
+    "Power": 12.509699442772195, 
+    "Latitude": 47.670266166666664, 
+    "RPM": 1448.0, 
+    "Speed": 80.0, 
+    "Torque": 82.49490196073421, 
+    "Longitude": -122.322475, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 7.05882352941, 
+    "Power": 20.842683178759092, 
+    "Latitude": 47.67005866666667, 
+    "RPM": 1884.25, 
+    "Speed": 79.0, 
+    "Torque": 105.6243137255326, 
+    "Longitude": -122.3225005, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.896946295272917, 
+    "Latitude": 47.6698515, 
+    "RPM": 1516.25, 
+    "Speed": 79.0, 
+    "Torque": 30.839215686266797, 
+    "Longitude": -122.3225235, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.17647058824, 
+    "Power": 4.766953161960643, 
+    "Latitude": 47.669646166666666, 
+    "RPM": 1476.0, 
+    "Speed": 77.0, 
+    "Torque": 30.839215686266797, 
+    "Longitude": -122.32254466666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.78431372549, 
+    "Power": 4.5391422143711555, 
+    "Latitude": 47.66944483333333, 
+    "RPM": 1441.5, 
+    "Speed": 75.0, 
+    "Torque": 30.0682352941986, 
+    "Longitude": -122.322566, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.73384932054489, 
+    "Latitude": 47.669244166666665, 
+    "RPM": 1430.0, 
+    "Speed": 74.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.32258233333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.806919994876342, 
+    "Latitude": 47.669044666666665, 
+    "RPM": 1417.5, 
+    "Speed": 73.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.322594, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.96078431373, 
+    "Power": 7.945123789307024, 
+    "Latitude": 47.668847, 
+    "RPM": 1405.75, 
+    "Speed": 63.0, 
+    "Torque": 53.9686274510652, 
+    "Longitude": -122.32259816666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 16.0784313725, 
+    "Power": 45.78473211293566, 
+    "Latitude": 47.6686525, 
+    "RPM": 2223.75, 
+    "Speed": 64.0, 
+    "Torque": 196.6, 
+    "Longitude": -122.32260133333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 15.6862745098, 
+    "Power": 53.14529050770778, 
+    "Latitude": 47.6684605, 
+    "RPM": 2581.25, 
+    "Speed": 69.0, 
+    "Torque": 196.6, 
+    "Longitude": -122.32260366666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 13.7254901961, 
+    "Power": 51.302577287198396, 
+    "Latitude": 47.668085166666664, 
+    "RPM": 2491.75, 
+    "Speed": 74.0, 
+    "Torque": 196.6, 
+    "Longitude": -122.32260933333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 7.05882352941, 
+    "Power": 26.443913699867583, 
+    "Latitude": 47.667899166666665, 
+    "RPM": 2113.0, 
+    "Speed": 78.0, 
+    "Torque": 119.50196078433298, 
+    "Longitude": -122.32260833333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.13725490196, 
+    "Power": 7.885375392607128, 
+    "Latitude": 47.66756066666667, 
+    "RPM": 1502.5, 
+    "Speed": 79.0, 
+    "Torque": 50.1137254901344, 
+    "Longitude": -122.3225935, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.52941176471, 
+    "Power": 9.62706134103148, 
+    "Latitude": 47.66740166666666, 
+    "RPM": 1402.75, 
+    "Speed": 78.0, 
+    "Torque": 65.53333333326779, 
+    "Longitude": -122.322573, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 4.3137254902, 
+    "Power": 13.057345980034727, 
+    "Latitude": 47.667063666666664, 
+    "RPM": 1406.25, 
+    "Speed": 78.0, 
+    "Torque": 88.6627450980662, 
+    "Longitude": -122.32255216666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 4.70588235294, 
+    "Power": 14.306309508560542, 
+    "Latitude": 47.666880166666665, 
+    "RPM": 1406.25, 
+    "Speed": 78.0, 
+    "Torque": 97.14352941179939, 
+    "Longitude": -122.32254866666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.09803921569, 
+    "Power": 14.341633729553312, 
+    "Latitude": 47.666492, 
+    "RPM": 1421.0, 
+    "Speed": 78.0, 
+    "Torque": 96.3725490195346, 
+    "Longitude": -122.322539, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.35294117647, 
+    "Power": 7.093426542870301, 
+    "Latitude": 47.66629316666667, 
+    "RPM": 1417.0, 
+    "Speed": 78.0, 
+    "Torque": 47.800784313733196, 
+    "Longitude": -122.32253366666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.632034822989919, 
+    "Latitude": 47.665898166666665, 
+    "RPM": 1471.0, 
+    "Speed": 78.0, 
+    "Torque": 30.0682352941986, 
+    "Longitude": -122.32252416666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.96078431373, 
+    "Power": 4.687019496135084, 
+    "Latitude": 47.665702, 
+    "RPM": 1451.25, 
+    "Speed": 75.0, 
+    "Torque": 30.839215686266797, 
+    "Longitude": -122.32252083333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.35294117647, 
+    "Power": 6.84886182187181, 
+    "Latitude": 47.66531, 
+    "RPM": 1413.75, 
+    "Speed": 74.0, 
+    "Torque": 46.2588235294002, 
+    "Longitude": -122.3225115, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.696607498967177, 
+    "Latitude": 47.66511583333333, 
+    "RPM": 1418.75, 
+    "Speed": 72.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.32250533333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.13725490196, 
+    "Power": 7.4630591915091, 
+    "Latitude": 47.664718666666666, 
+    "RPM": 1444.25, 
+    "Speed": 66.0, 
+    "Torque": 49.34274509806619, 
+    "Longitude": -122.32250083333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.548144844397749, 
+    "Latitude": 47.664522833333336, 
+    "RPM": 1408.25, 
+    "Speed": 62.0, 
+    "Torque": 30.839215686266797, 
+    "Longitude": -122.322498, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.88235294118, 
+    "Power": 12.668315287744905, 
+    "Latitude": 47.66414116666667, 
+    "RPM": 1388.5, 
+    "Speed": 54.0, 
+    "Torque": 87.1207843137332, 
+    "Longitude": -122.32249083333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 10.5882352941, 
+    "Power": 34.27610090825723, 
+    "Latitude": 47.663953666666664, 
+    "RPM": 1886.75, 
+    "Speed": 53.0, 
+    "Torque": 173.4705882352016, 
+    "Longitude": -122.32248733333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 9.41176470588, 
+    "Power": 28.149084496399862, 
+    "Latitude": 47.663588833333336, 
+    "RPM": 1894.75, 
+    "Speed": 56.0, 
+    "Torque": 141.8603921568666, 
+    "Longitude": -122.32248266666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.901042323752916, 
+    "Latitude": 47.66342, 
+    "RPM": 1405.5, 
+    "Speed": 58.0, 
+    "Torque": 40.0909803920682, 
+    "Longitude": -122.322485, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.433896221023504, 
+    "Latitude": 47.66310716666667, 
+    "RPM": 1307.5, 
+    "Speed": 52.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.32250533333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.024678678451307, 
+    "Latitude": 47.662969, 
+    "RPM": 1296.5, 
+    "Speed": 48.0, 
+    "Torque": 37.0070588235988, 
+    "Longitude": -122.32252166666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.130086153943882, 
+    "Latitude": 47.66270633333333, 
+    "RPM": 1270.75, 
+    "Speed": 40.0, 
+    "Torque": 38.549019607931804, 
+    "Longitude": -122.3226015, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.062102167439462, 
+    "Latitude": 47.6625735, 
+    "RPM": 1279.5, 
+    "Speed": 29.0, 
+    "Torque": 37.778039215667, 
+    "Longitude": -122.32266766666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.63482039011749, 
+    "Latitude": 47.66243583333333, 
+    "RPM": 1171.5, 
+    "Speed": 18.0, 
+    "Torque": 37.778039215667, 
+    "Longitude": -122.3227355, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.674020182814604, 
+    "Latitude": 47.662297333333335, 
+    "RPM": 949.0, 
+    "Speed": 9.0, 
+    "Torque": 47.029803921665, 
+    "Longitude": -122.32279066666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.9866496313690725, 
+    "Latitude": 47.662165, 
+    "RPM": 735.25, 
+    "Speed": 3.0, 
+    "Torque": 64.7623529411996, 
+    "Longitude": -122.3228255, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.623435898323228, 
+    "Latitude": 47.66203866666667, 
+    "RPM": 763.5, 
+    "Speed": 0.0, 
+    "Torque": 57.8235294117994, 
+    "Longitude": -122.32284083333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.752944585177532, 
+    "Latitude": 47.66192183333333, 
+    "RPM": 764.5, 
+    "Speed": 0.0, 
+    "Torque": 59.36549019613239, 
+    "Longitude": -122.32285216666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.626463688695411, 
+    "Latitude": 47.66181983333333, 
+    "RPM": 764.0, 
+    "Speed": 0.0, 
+    "Torque": 57.8235294117994, 
+    "Longitude": -122.32286583333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.506038372957655, 
+    "Latitude": 47.66173466666667, 
+    "RPM": 764.5, 
+    "Speed": 0.0, 
+    "Torque": 56.2815686274664, 
+    "Longitude": -122.32287466666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.662797173163046, 
+    "Latitude": 47.66162166666667, 
+    "RPM": 750.0, 
+    "Speed": 0.0, 
+    "Torque": 59.36549019613239, 
+    "Longitude": -122.322881, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.505029109493244, 
+    "Latitude": 47.6615915, 
+    "RPM": 754.0, 
+    "Speed": 0.0, 
+    "Torque": 57.0525490195346, 
+    "Longitude": -122.3228825, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.734374137554436, 
+    "Latitude": 47.66156566666667, 
+    "RPM": 751.75, 
+    "Speed": 0.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.3228875, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.78709806057717, 
+    "Latitude": 47.661562833333335, 
+    "RPM": 750.5, 
+    "Speed": 0.0, 
+    "Torque": 60.9074509804654, 
+    "Longitude": -122.322889, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.731225235567369, 
+    "Latitude": 47.66156066666667, 
+    "RPM": 751.25, 
+    "Speed": 0.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.32289116666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.7721609613992335, 
+    "Latitude": 47.661560333333334, 
+    "RPM": 757.75, 
+    "Speed": 0.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.322892, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.631388894360451, 
+    "Latitude": 47.661558666666664, 
+    "RPM": 754.75, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.32289316666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.770586510405701, 
+    "Latitude": 47.66155783333333, 
+    "RPM": 757.5, 
+    "Speed": 0.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.3228935, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.728076333580303, 
+    "Latitude": 47.6615565, 
+    "RPM": 750.75, 
+    "Speed": 0.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.322894, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.628320733449977, 
+    "Latitude": 47.661556166666664, 
+    "RPM": 754.25, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.32289416666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.675231298958147, 
+    "Latitude": 47.661555, 
+    "RPM": 752.0, 
+    "Speed": 0.0, 
+    "Torque": 59.36549019613239, 
+    "Longitude": -122.32289433333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.410259270850969, 
+    "Latitude": 47.661555, 
+    "RPM": 748.25, 
+    "Speed": 0.0, 
+    "Torque": 56.2815686274664, 
+    "Longitude": -122.32289416666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.71705517662557, 
+    "Latitude": 47.661553833333336, 
+    "RPM": 749.0, 
+    "Speed": 0.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.32289333333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.734374137554436, 
+    "Latitude": 47.661553, 
+    "RPM": 751.75, 
+    "Speed": 0.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.32289183333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.493079430157718, 
+    "Latitude": 47.66155283333333, 
+    "RPM": 752.0, 
+    "Speed": 0.0, 
+    "Torque": 57.0525490195346, 
+    "Longitude": -122.32289116666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.628320733449977, 
+    "Latitude": 47.661552, 
+    "RPM": 754.25, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.32288933333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.640593377091872, 
+    "Latitude": 47.66155166666667, 
+    "RPM": 756.25, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.3228885, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 6.0274424791668775, 
+    "Latitude": 47.66154983333333, 
+    "RPM": 761.75, 
+    "Speed": 0.0, 
+    "Torque": 75.556078431334, 
+    "Longitude": -122.32288633333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 7.45098039216, 
+    "Power": 19.092479046744703, 
+    "Latitude": 47.66154866666667, 
+    "RPM": 1665.25, 
+    "Speed": 3.0, 
+    "Torque": 109.47921568626681, 
+    "Longitude": -122.3228855, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 11.7647058824, 
+    "Power": 30.55464376181622, 
+    "Latitude": 47.6615465, 
+    "RPM": 1911.25, 
+    "Speed": 14.0, 
+    "Torque": 152.65411764700102, 
+    "Longitude": -122.32288433333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.74509803922, 
+    "Power": 7.2106222155367385, 
+    "Latitude": 47.6615455, 
+    "RPM": 1539.75, 
+    "Speed": 20.0, 
+    "Torque": 44.716862745067196, 
+    "Longitude": -122.32288366666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.96078431373, 
+    "Power": 4.367284832826659, 
+    "Latitude": 47.6615445, 
+    "RPM": 1202.0, 
+    "Speed": 21.0, 
+    "Torque": 34.694117647001, 
+    "Longitude": -122.32288233333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.13725490196, 
+    "Power": 7.4929737603939435, 
+    "Latitude": 47.661544, 
+    "RPM": 1325.75, 
+    "Speed": 22.0, 
+    "Torque": 53.9686274510652, 
+    "Longitude": -122.3228815, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 9.80392156863, 
+    "Power": 32.02826933597076, 
+    "Latitude": 47.6615435, 
+    "RPM": 2034.25, 
+    "Speed": 26.0, 
+    "Torque": 150.34117647059978, 
+    "Longitude": -122.32288033333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 10.1960784314, 
+    "Power": 36.01944204875871, 
+    "Latitude": 47.661543, 
+    "RPM": 2134.5, 
+    "Speed": 34.0, 
+    "Torque": 161.1349019607342, 
+    "Longitude": -122.32287883333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 4.3137254902, 
+    "Power": 12.398438239225293, 
+    "Latitude": 47.661542, 
+    "RPM": 1347.0, 
+    "Speed": 40.0, 
+    "Torque": 87.89176470580139, 
+    "Longitude": -122.3228775, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.13725490196, 
+    "Power": 7.544728790467632, 
+    "Latitude": 47.6615365, 
+    "RPM": 1262.75, 
+    "Speed": 42.0, 
+    "Torque": 57.0525490195346, 
+    "Longitude": -122.322876, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.92156862745, 
+    "Power": 7.5458187950203754, 
+    "Latitude": 47.66148316666666, 
+    "RPM": 1183.0, 
+    "Speed": 44.0, 
+    "Torque": 60.9074509804654, 
+    "Longitude": -122.32288016666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.511044319706705, 
+    "Latitude": 47.66143666666667, 
+    "RPM": 1330.25, 
+    "Speed": 46.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.32288083333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.396190138240289, 
+    "Latitude": 47.661331833333335, 
+    "RPM": 1328.0, 
+    "Speed": 46.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.32286016666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.349965871906615, 
+    "Latitude": 47.661288666666664, 
+    "RPM": 1282.75, 
+    "Speed": 43.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.32281266666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 9.01960784314, 
+    "Power": 28.935946658324063, 
+    "Latitude": 47.661257666666664, 
+    "RPM": 1585.75, 
+    "Speed": 43.0, 
+    "Torque": 174.2415686274664, 
+    "Longitude": -122.322637, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.96078431373, 
+    "Power": 6.881198623060078, 
+    "Latitude": 47.66126083333333, 
+    "RPM": 1444.5, 
+    "Speed": 46.0, 
+    "Torque": 45.48784313733199, 
+    "Longitude": -122.32251816666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.392156862745, 
+    "Power": 4.736513776091148, 
+    "Latitude": 47.66125983333333, 
+    "RPM": 1333.25, 
+    "Speed": 47.0, 
+    "Torque": 33.923137254932804, 
+    "Longitude": -122.3222255, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.96078431373, 
+    "Power": 0.0, 
+    "Latitude": 47.661259333333334, 
+    "RPM": 1302.5, 
+    "Speed": 45.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.32206883333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.511811359936814, 
+    "Latitude": 47.66126583333333, 
+    "RPM": 1016.0, 
+    "Speed": 11.0, 
+    "Torque": 42.403921568666, 
+    "Longitude": -122.3189335, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 6.247542653960995, 
+    "Latitude": 47.661266, 
+    "RPM": 814.5, 
+    "Speed": 5.0, 
+    "Torque": 73.24313725493279, 
+    "Longitude": -122.31889766666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.430887034775635, 
+    "Latitude": 47.66126533333333, 
+    "RPM": 800.75, 
+    "Speed": 2.0, 
+    "Torque": 64.7623529411996, 
+    "Longitude": -122.31887766666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.64170198574642, 
+    "Latitude": 47.661266, 
+    "RPM": 759.5, 
+    "Speed": 2.0, 
+    "Torque": 70.93019607833499, 
+    "Longitude": -122.31886916666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.536982390561354, 
+    "Latitude": 47.661266, 
+    "RPM": 769.75, 
+    "Speed": 0.0, 
+    "Torque": 56.2815686274664, 
+    "Longitude": -122.31886116666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.715642207792227, 
+    "Latitude": 47.66126516666667, 
+    "RPM": 758.5, 
+    "Speed": 0.0, 
+    "Torque": 59.36549019613239, 
+    "Longitude": -122.31885283333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.17647058824, 
+    "Power": 4.6037754461661855, 
+    "Latitude": 47.66126533333333, 
+    "RPM": 750.25, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.31885016666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.78431372549, 
+    "Power": 4.626786652994739, 
+    "Latitude": 47.66126583333333, 
+    "RPM": 754.0, 
+    "Speed": 2.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.31885, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.821857094042846, 
+    "Latitude": 47.661265666666665, 
+    "RPM": 746.5, 
+    "Speed": 3.0, 
+    "Torque": 61.678431372533595, 
+    "Longitude": -122.31885033333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.52941176471, 
+    "Power": 9.418244731704796, 
+    "Latitude": 47.661266, 
+    "RPM": 772.5, 
+    "Speed": 4.0, 
+    "Torque": 116.418039215667, 
+    "Longitude": -122.318849, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.92156862745, 
+    "Power": 11.3545772305339, 
+    "Latitude": 47.6612655, 
+    "RPM": 1420.5, 
+    "Speed": 7.0, 
+    "Torque": 76.3270588235988, 
+    "Longitude": -122.318843, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 4.3137254902, 
+    "Power": 12.962858735142943, 
+    "Latitude": 47.66126583333333, 
+    "RPM": 1638.25, 
+    "Speed": 12.0, 
+    "Torque": 75.556078431334, 
+    "Longitude": -122.31883433333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 4.70588235294, 
+    "Power": 13.230475033521252, 
+    "Latitude": 47.661266, 
+    "RPM": 1517.25, 
+    "Speed": 17.0, 
+    "Torque": 83.265882352999, 
+    "Longitude": -122.31882316666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 4.3137254902, 
+    "Power": 10.454354597069223, 
+    "Latitude": 47.6612655, 
+    "RPM": 1245.0, 
+    "Speed": 22.0, 
+    "Torque": 80.181960784333, 
+    "Longitude": -122.31881066666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 7.080911675994398, 
+    "Latitude": 47.66126516666667, 
+    "RPM": 1271.0, 
+    "Speed": 25.0, 
+    "Torque": 53.1976470588004, 
+    "Longitude": -122.31879583333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.2563651977211805, 
+    "Latitude": 47.66126516666667, 
+    "RPM": 1276.5, 
+    "Speed": 25.0, 
+    "Torque": 39.32, 
+    "Longitude": -122.31877466666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.96078431373, 
+    "Power": 5.358381547982683, 
+    "Latitude": 47.661265, 
+    "RPM": 1276.25, 
+    "Speed": 24.0, 
+    "Torque": 40.0909803920682, 
+    "Longitude": -122.31874316666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.88235294118, 
+    "Power": 20.23157415529005, 
+    "Latitude": 47.661264333333335, 
+    "RPM": 1815.75, 
+    "Speed": 26.0, 
+    "Torque": 106.3952941176008, 
+    "Longitude": -122.31869983333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 6.66666666667, 
+    "Power": 19.007559619424327, 
+    "Latitude": 47.66126383333334, 
+    "RPM": 1646.25, 
+    "Speed": 30.0, 
+    "Torque": 110.25019607833501, 
+    "Longitude": -122.318644, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.88235294118, 
+    "Power": 11.915324007449895, 
+    "Latitude": 47.66126466666667, 
+    "RPM": 1329.5, 
+    "Speed": 34.0, 
+    "Torque": 85.5788235294002, 
+    "Longitude": -122.31849416666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.35294117647, 
+    "Power": 4.986165184914788, 
+    "Latitude": 47.661265, 
+    "RPM": 1342.5, 
+    "Speed": 36.0, 
+    "Torque": 35.4650980392658, 
+    "Longitude": -122.318405, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 3.8971497290989316, 
+    "Latitude": 47.661263, 
+    "RPM": 1177.25, 
+    "Speed": 37.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.31822, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.825026181300268, 
+    "Latitude": 47.661263, 
+    "RPM": 1171.75, 
+    "Speed": 38.0, 
+    "Torque": 39.32, 
+    "Longitude": -122.318128, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 0.0, 
+    "Latitude": 47.661262, 
+    "RPM": 1333.25, 
+    "Speed": 38.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.317937, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.392156862745, 
+    "Power": 0.0, 
+    "Latitude": 47.66126233333333, 
+    "RPM": 1298.25, 
+    "Speed": 38.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.31782933333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 0.0, 
+    "Latitude": 47.6612605, 
+    "RPM": 1256.5, 
+    "Speed": 37.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.3175845, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.392156862745, 
+    "Power": 0.0, 
+    "Latitude": 47.6612595, 
+    "RPM": 1303.25, 
+    "Speed": 35.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.317452, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.17647058824, 
+    "Power": 0.0, 
+    "Latitude": 47.66125733333333, 
+    "RPM": 1290.0, 
+    "Speed": 32.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.31717883333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.09803921569, 
+    "Power": 16.069654250764295, 
+    "Latitude": 47.66125616666667, 
+    "RPM": 1715.75, 
+    "Speed": 30.0, 
+    "Torque": 89.43372549013439, 
+    "Longitude": -122.31703883333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 8.23529411765, 
+    "Power": 22.993282309559355, 
+    "Latitude": 47.661255, 
+    "RPM": 1825.5, 
+    "Speed": 31.0, 
+    "Torque": 120.27294117640119, 
+    "Longitude": -122.31675383333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 10.5882352941, 
+    "Power": 35.5305144594828, 
+    "Latitude": 47.66125433333333, 
+    "RPM": 2095.5, 
+    "Speed": 34.0, 
+    "Torque": 161.905882352999, 
+    "Longitude": -122.316611, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 9.01960784314, 
+    "Power": 12.198361851439941, 
+    "Latitude": 47.66125133333333, 
+    "RPM": 1888.5, 
+    "Speed": 39.0, 
+    "Torque": 61.678431372533595, 
+    "Longitude": -122.31633433333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.05083878724636, 
+    "Latitude": 47.661252166666664, 
+    "RPM": 1203.0, 
+    "Speed": 36.0, 
+    "Torque": 40.0909803920682, 
+    "Longitude": -122.31620383333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 0.0, 
+    "Latitude": 47.66125316666667, 
+    "RPM": 1289.25, 
+    "Speed": 30.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.31596, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.17647058824, 
+    "Power": 0.0, 
+    "Latitude": 47.6612555, 
+    "RPM": 1290.25, 
+    "Speed": 26.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.31584416666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 7.45098039216, 
+    "Power": 24.436831832690586, 
+    "Latitude": 47.66125516666666, 
+    "RPM": 1927.75, 
+    "Speed": 22.0, 
+    "Torque": 121.043921568666, 
+    "Longitude": -122.31572866666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 12.9411764706, 
+    "Power": 45.727708727593885, 
+    "Latitude": 47.661251166666666, 
+    "RPM": 2410.0, 
+    "Speed": 24.0, 
+    "Torque": 181.1803921568666, 
+    "Longitude": -122.31548516666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 11.7647058824, 
+    "Power": 40.9195776165685, 
+    "Latitude": 47.66124833333333, 
+    "RPM": 2262.5, 
+    "Speed": 31.0, 
+    "Torque": 172.6996078431334, 
+    "Longitude": -122.315348, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 4.70588235294, 
+    "Power": 15.673134823638314, 
+    "Latitude": 47.66125616666667, 
+    "RPM": 1866.5, 
+    "Speed": 37.0, 
+    "Torque": 80.181960784333, 
+    "Longitude": -122.31507383333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 5.393503916324239, 
+    "Latitude": 47.661257, 
+    "RPM": 1336.0, 
+    "Speed": 39.0, 
+    "Torque": 38.549019607931804, 
+    "Longitude": -122.31495316666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.52941176471, 
+    "Power": 8.860525745152035, 
+    "Latitude": 47.66125516666666, 
+    "RPM": 1180.0, 
+    "Speed": 40.0, 
+    "Torque": 71.7011764705998, 
+    "Longitude": -122.31474816666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.446550803620399, 
+    "Latitude": 47.6612585, 
+    "RPM": 1297.25, 
+    "Speed": 41.0, 
+    "Torque": 40.0909803920682, 
+    "Longitude": -122.314663, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.61039621445512, 
+    "Latitude": 47.66125916666667, 
+    "RPM": 1297.75, 
+    "Speed": 41.0, 
+    "Torque": 33.923137254932804, 
+    "Longitude": -122.31448933333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.392156862745, 
+    "Power": 4.555976728829887, 
+    "Latitude": 47.66125683333333, 
+    "RPM": 1343.5, 
+    "Speed": 37.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.314382, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.126654658176943, 
+    "Latitude": 47.661251666666665, 
+    "RPM": 1245.0, 
+    "Speed": 35.0, 
+    "Torque": 39.32, 
+    "Longitude": -122.31411416666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.496066849986915, 
+    "Latitude": 47.6612495, 
+    "RPM": 1295.0, 
+    "Speed": 30.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.31396766666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.375419496290355, 
+    "Latitude": 47.66124716666667, 
+    "RPM": 1260.25, 
+    "Speed": 23.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.31366666666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.242620610572158, 
+    "Latitude": 47.661247, 
+    "RPM": 1118.0, 
+    "Speed": 15.0, 
+    "Torque": 36.236078431334, 
+    "Longitude": -122.31351333333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.228751749523871, 
+    "Latitude": 47.661243666666664, 
+    "RPM": 830.25, 
+    "Speed": 7.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.31321083333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.547297063095921, 
+    "Latitude": 47.661239, 
+    "RPM": 771.5, 
+    "Speed": 1.0, 
+    "Torque": 56.2815686274664, 
+    "Longitude": -122.31307016666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.35294117647, 
+    "Power": 5.659142058301469, 
+    "Latitude": 47.661230333333336, 
+    "RPM": 815.0, 
+    "Speed": 0.0, 
+    "Torque": 66.3043137255326, 
+    "Longitude": -122.3128065, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.52941176471, 
+    "Power": 8.120634704527177, 
+    "Latitude": 47.661229, 
+    "RPM": 1183.25, 
+    "Speed": 0.0, 
+    "Torque": 65.53333333326779, 
+    "Longitude": -122.3126945, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.709887824930917, 
+    "Latitude": 47.66122266666667, 
+    "RPM": 1055.5, 
+    "Speed": 2.0, 
+    "Torque": 51.65568627446739, 
+    "Longitude": -122.3126, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.145023253101147, 
+    "Latitude": 47.661219333333335, 
+    "RPM": 897.5, 
+    "Speed": 0.0, 
+    "Torque": 54.739607843133406, 
+    "Longitude": -122.31246683333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.045812655242737, 
+    "Latitude": 47.661217, 
+    "RPM": 833.25, 
+    "Speed": 0.0, 
+    "Torque": 57.8235294117994, 
+    "Longitude": -122.31243133333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.757466085456228, 
+    "Latitude": 47.6612175, 
+    "RPM": 796.25, 
+    "Speed": 0.0, 
+    "Torque": 57.0525490195346, 
+    "Longitude": -122.31241033333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.760251652600357, 
+    "Latitude": 47.661218, 
+    "RPM": 775.75, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.31240966666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.4706737814105715, 
+    "Latitude": 47.66121666666667, 
+    "RPM": 758.5, 
+    "Speed": 0.0, 
+    "Torque": 56.2815686274664, 
+    "Longitude": -122.3124095, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.669740905741375, 
+    "Latitude": 47.661217666666666, 
+    "RPM": 761.0, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.312404, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.561790086336992, 
+    "Latitude": 47.66122, 
+    "RPM": 763.5, 
+    "Speed": 0.0, 
+    "Torque": 57.0525490195346, 
+    "Longitude": -122.3124, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.694286193025167, 
+    "Latitude": 47.66122083333333, 
+    "RPM": 765.0, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.31239966666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.783182118353967, 
+    "Latitude": 47.66122033333333, 
+    "RPM": 759.5, 
+    "Speed": 0.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.3124005, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.605269156090131, 
+    "Latitude": 47.66122, 
+    "RPM": 760.5, 
+    "Speed": 0.0, 
+    "Torque": 57.8235294117994, 
+    "Longitude": -122.31240083333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.83972105724574, 
+    "Latitude": 47.6612205, 
+    "RPM": 758.75, 
+    "Speed": 0.0, 
+    "Torque": 60.9074509804654, 
+    "Longitude": -122.31240133333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.723413536414165, 
+    "Latitude": 47.661221, 
+    "RPM": 759.75, 
+    "Speed": 0.0, 
+    "Torque": 59.36549019613239, 
+    "Longitude": -122.31240166666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.886993376434447, 
+    "Latitude": 47.66122083333333, 
+    "RPM": 759.5, 
+    "Speed": 0.0, 
+    "Torque": 74.01411764700099, 
+    "Longitude": -122.31240149999999, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.661200955750311, 
+    "Latitude": 47.66122133333333, 
+    "RPM": 770.5, 
+    "Speed": 0.0, 
+    "Torque": 70.15921568626679, 
+    "Longitude": -122.312401, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.902374551532212, 
+    "Latitude": 47.661222, 
+    "RPM": 769.5, 
+    "Speed": 0.0, 
+    "Torque": 73.24313725493279, 
+    "Longitude": -122.3124005, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.801671824891756, 
+    "Latitude": 47.66122266666667, 
+    "RPM": 782.5, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.31240033333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.744910848047987, 
+    "Latitude": 47.661224, 
+    "RPM": 773.25, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.31239983333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.989798533353112, 
+    "Latitude": 47.661224833333335, 
+    "RPM": 772.5, 
+    "Speed": 0.0, 
+    "Torque": 61.678431372533595, 
+    "Longitude": -122.31239933333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.9114796890665176, 
+    "Latitude": 47.661225333333334, 
+    "RPM": 770.0, 
+    "Speed": 0.0, 
+    "Torque": 60.9074509804654, 
+    "Longitude": -122.31239916666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.721899641219433, 
+    "Latitude": 47.6612255, 
+    "RPM": 769.5, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.312399, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.90031723522773, 
+    "Latitude": 47.66122566666667, 
+    "RPM": 768.25, 
+    "Speed": 0.0, 
+    "Torque": 60.9074509804654, 
+    "Longitude": -122.3123995, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.669740905741375, 
+    "Latitude": 47.661226166666665, 
+    "RPM": 761.0, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.31239983333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.952657638121035, 
+    "Latitude": 47.66122633333333, 
+    "RPM": 766.75, 
+    "Speed": 0.0, 
+    "Torque": 61.678431372533595, 
+    "Longitude": -122.31240083333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.774704305318959, 
+    "Latitude": 47.66122683333333, 
+    "RPM": 768.0, 
+    "Speed": 0.0, 
+    "Torque": 59.36549019613239, 
+    "Longitude": -122.312401, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 6.362719799721918, 
+    "Latitude": 47.66122716666667, 
+    "RPM": 796.0, 
+    "Speed": 0.0, 
+    "Torque": 76.3270588235988, 
+    "Longitude": -122.3124025, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.09803921569, 
+    "Power": 18.586192125974428, 
+    "Latitude": 47.6612385, 
+    "RPM": 1644.25, 
+    "Speed": 12.0, 
+    "Torque": 107.93725490193378, 
+    "Longitude": -122.31215533333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 6.27450980392, 
+    "Power": 20.496203033818556, 
+    "Latitude": 47.66122266666667, 
+    "RPM": 1839.5, 
+    "Speed": 16.0, 
+    "Torque": 106.3952941176008, 
+    "Longitude": -122.31211516666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 6.27450980392, 
+    "Power": 17.909117642962265, 
+    "Latitude": 47.661196333333336, 
+    "RPM": 1595.75, 
+    "Speed": 23.0, 
+    "Torque": 107.16627450986562, 
+    "Longitude": -122.31207933333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.09803921569, 
+    "Power": 9.05462729328235, 
+    "Latitude": 47.661147, 
+    "RPM": 1304.0, 
+    "Speed": 29.0, 
+    "Torque": 66.3043137255326, 
+    "Longitude": -122.31205733333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.730153835150519, 
+    "Latitude": 47.661084333333335, 
+    "RPM": 1314.25, 
+    "Speed": 32.0, 
+    "Torque": 41.6329411764012, 
+    "Longitude": -122.3120445, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.392156862745, 
+    "Power": 4.661020869478033, 
+    "Latitude": 47.6610145, 
+    "RPM": 1312.0, 
+    "Speed": 33.0, 
+    "Torque": 33.923137254932804, 
+    "Longitude": -122.312041, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.13725490196, 
+    "Power": 8.78355931389118, 
+    "Latitude": 47.660936666666665, 
+    "RPM": 1169.75, 
+    "Speed": 35.0, 
+    "Torque": 71.7011764705998, 
+    "Longitude": -122.31204016666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.13725490196, 
+    "Power": 8.664970857634232, 
+    "Latitude": 47.66085666666667, 
+    "RPM": 1166.5, 
+    "Speed": 37.0, 
+    "Torque": 70.93019607833499, 
+    "Longitude": -122.31204633333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.392156862745, 
+    "Power": 5.194679015217226, 
+    "Latitude": 47.66077533333333, 
+    "RPM": 1286.75, 
+    "Speed": 40.0, 
+    "Torque": 38.549019607931804, 
+    "Longitude": -122.31205833333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.78431372549, 
+    "Power": 4.672264064378294, 
+    "Latitude": 47.66069016666667, 
+    "RPM": 1345.75, 
+    "Speed": 42.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.31206316666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.78431372549, 
+    "Power": 4.514435444923548, 
+    "Latitude": 47.660601166666666, 
+    "RPM": 1331.25, 
+    "Speed": 42.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.312064, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.60803453794991, 
+    "Latitude": 47.66050716666667, 
+    "RPM": 1327.25, 
+    "Speed": 43.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.31206066666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.301642337555049, 
+    "Latitude": 47.660409, 
+    "RPM": 1239.0, 
+    "Speed": 39.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.312055, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.35294117647, 
+    "Power": 5.855504356558606, 
+    "Latitude": 47.660307833333334, 
+    "RPM": 1343.0, 
+    "Speed": 37.0, 
+    "Torque": 41.6329411764012, 
+    "Longitude": -122.3120505, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.96078431373, 
+    "Power": 4.694770639493307, 
+    "Latitude": 47.66020416666667, 
+    "RPM": 1321.5, 
+    "Speed": 39.0, 
+    "Torque": 33.923137254932804, 
+    "Longitude": -122.31204716666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 4.716530359619479, 
+    "Latitude": 47.660098833333336, 
+    "RPM": 1358.5, 
+    "Speed": 40.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.31204066666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.78431372549, 
+    "Power": 4.899045563269975, 
+    "Latitude": 47.659992333333335, 
+    "RPM": 1379.0, 
+    "Speed": 40.0, 
+    "Torque": 33.923137254932804, 
+    "Longitude": -122.312039, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.17647058824, 
+    "Power": 4.642813756688257, 
+    "Latitude": 47.659881, 
+    "RPM": 1402.5, 
+    "Speed": 41.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.3120385, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 4.961216192242743, 
+    "Latitude": 47.659777166666665, 
+    "RPM": 1463.0, 
+    "Speed": 42.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.31204333333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.17647058824, 
+    "Power": 5.078472420709159, 
+    "Latitude": 47.65958583333333, 
+    "RPM": 1462.75, 
+    "Speed": 44.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.31205016666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.74509803922, 
+    "Power": 6.3460063968511164, 
+    "Latitude": 47.65948916666667, 
+    "RPM": 1455.5, 
+    "Speed": 44.0, 
+    "Torque": 41.6329411764012, 
+    "Longitude": -122.31205333333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.13725490196, 
+    "Power": 7.593536771281027, 
+    "Latitude": 47.65928316666667, 
+    "RPM": 1469.5, 
+    "Speed": 46.0, 
+    "Torque": 49.34274509806619, 
+    "Longitude": -122.312056, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.74509803922, 
+    "Power": 6.308946242695683, 
+    "Latitude": 47.659177, 
+    "RPM": 1447.0, 
+    "Speed": 47.0, 
+    "Torque": 41.6329411764012, 
+    "Longitude": -122.31205416666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.17647058824, 
+    "Power": 4.801712195419833, 
+    "Latitude": 47.65885816666667, 
+    "RPM": 1450.5, 
+    "Speed": 49.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.31205016666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.320917688460917, 
+    "Latitude": 47.658635833333335, 
+    "RPM": 1497.75, 
+    "Speed": 50.0, 
+    "Torque": 33.923137254932804, 
+    "Longitude": -122.31206283333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.158749236123905, 
+    "Latitude": 47.65852233333333, 
+    "RPM": 1521.25, 
+    "Speed": 50.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.3120755, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 6.66666666667, 
+    "Power": 22.473713481699043, 
+    "Latitude": 47.658293666666665, 
+    "RPM": 1647.0, 
+    "Speed": 53.0, 
+    "Torque": 130.2956862744674, 
+    "Longitude": -122.312085, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.609667963603366, 
+    "Latitude": 47.658177, 
+    "RPM": 1615.75, 
+    "Speed": 56.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.31209166666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.685181055485385, 
+    "Latitude": 47.657929833333334, 
+    "RPM": 1637.5, 
+    "Speed": 55.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.3121035, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.670809143867346, 
+    "Latitude": 47.65780266666667, 
+    "RPM": 1672.25, 
+    "Speed": 53.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.3121075, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 6.605064141102134, 
+    "Latitude": 47.657549, 
+    "RPM": 1669.5, 
+    "Speed": 52.0, 
+    "Torque": 37.778039215667, 
+    "Longitude": -122.31211383333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 6.67331053609106, 
+    "Latitude": 47.65741716666667, 
+    "RPM": 1686.75, 
+    "Speed": 52.0, 
+    "Torque": 37.778039215667, 
+    "Longitude": -122.31211366666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.506339570850412, 
+    "Latitude": 47.657138, 
+    "RPM": 1623.75, 
+    "Speed": 51.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.31212, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.091774513091236, 
+    "Latitude": 47.656998, 
+    "RPM": 1501.5, 
+    "Speed": 46.0, 
+    "Torque": 32.3811764705998, 
+    "Longitude": -122.31212433333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.95001336785239, 
+    "Latitude": 47.65672766666667, 
+    "RPM": 1425.75, 
+    "Speed": 40.0, 
+    "Torque": 33.152156862668, 
+    "Longitude": -122.3121325, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.535226272130418, 
+    "Latitude": 47.656597, 
+    "RPM": 1370.0, 
+    "Speed": 33.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.31213933333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.885036986468754, 
+    "Latitude": 47.65633783333333, 
+    "RPM": 1344.5, 
+    "Speed": 25.0, 
+    "Torque": 34.694117647001, 
+    "Longitude": -122.31214583333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.721415194773084, 
+    "Latitude": 47.65620966666667, 
+    "RPM": 1218.25, 
+    "Speed": 18.0, 
+    "Torque": 37.0070588235988, 
+    "Longitude": -122.31215033333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.949912441514748, 
+    "Latitude": 47.65597533333333, 
+    "RPM": 1057.0, 
+    "Speed": 12.0, 
+    "Torque": 44.716862745067196, 
+    "Longitude": -122.31215483333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.261330773927929, 
+    "Latitude": 47.65587266666667, 
+    "RPM": 749.0, 
+    "Speed": 4.0, 
+    "Torque": 67.0752941176008, 
+    "Longitude": -122.3121465, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.799572556909162, 
+    "Latitude": 47.6557815, 
+    "RPM": 772.0, 
+    "Speed": 0.0, 
+    "Torque": 59.36549019613239, 
+    "Longitude": -122.31213683333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.820968942198764, 
+    "Latitude": 47.6557025, 
+    "RPM": 765.5, 
+    "Speed": 0.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.31213233333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.814671138224631, 
+    "Latitude": 47.65563866666667, 
+    "RPM": 764.5, 
+    "Speed": 0.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.31213183333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.528141242674584, 
+    "Latitude": 47.65558733333334, 
+    "RPM": 768.25, 
+    "Speed": 0.0, 
+    "Torque": 56.2815686274664, 
+    "Longitude": -122.31213066666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.822543393192297, 
+    "Latitude": 47.655514833333335, 
+    "RPM": 765.75, 
+    "Speed": 0.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.31213266666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.665824963533788, 
+    "Latitude": 47.6554975, 
+    "RPM": 770.5, 
+    "Speed": 0.0, 
+    "Torque": 57.8235294117994, 
+    "Longitude": -122.312134, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.696991019099575, 
+    "Latitude": 47.6554905, 
+    "RPM": 755.5, 
+    "Speed": 0.0, 
+    "Torque": 59.36549019613239, 
+    "Longitude": -122.31212866666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.339671384632413, 
+    "Latitude": 47.65549133333333, 
+    "RPM": 746.5, 
+    "Speed": 0.0, 
+    "Torque": 55.51058823520159, 
+    "Longitude": -122.31212866666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.729306053856782, 
+    "Latitude": 47.6554915, 
+    "RPM": 763.0, 
+    "Speed": 0.0, 
+    "Torque": 71.7011764705998, 
+    "Longitude": -122.31212516666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.811783063587887, 
+    "Latitude": 47.655491166666664, 
+    "RPM": 765.75, 
+    "Speed": 0.0, 
+    "Torque": 72.472156862668, 
+    "Longitude": -122.312123, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.838409014748211, 
+    "Latitude": 47.655490666666665, 
+    "RPM": 799.0, 
+    "Speed": 0.0, 
+    "Torque": 57.8235294117994, 
+    "Longitude": -122.31212016666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.073426103441518, 
+    "Latitude": 47.65549016666667, 
+    "RPM": 775.75, 
+    "Speed": 0.0, 
+    "Torque": 62.4494117647984, 
+    "Longitude": -122.3121185, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.017250499394214, 
+    "Latitude": 47.65548916666667, 
+    "RPM": 776.75, 
+    "Speed": 0.0, 
+    "Torque": 61.678431372533595, 
+    "Longitude": -122.3121155, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.997872641012261, 
+    "Latitude": 47.65548883333334, 
+    "RPM": 773.75, 
+    "Speed": 0.0, 
+    "Torque": 61.678431372533595, 
+    "Longitude": -122.31211416666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.694286193025167, 
+    "Latitude": 47.65548833333333, 
+    "RPM": 765.0, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.312112, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.6758772275623235, 
+    "Latitude": 47.65548833333333, 
+    "RPM": 762.0, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.31211116666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.862045964923316, 
+    "Latitude": 47.6554885, 
+    "RPM": 762.25, 
+    "Speed": 0.0, 
+    "Torque": 60.9074509804654, 
+    "Longitude": -122.31211033333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.962346567312012, 
+    "Latitude": 47.6554885, 
+    "RPM": 768.25, 
+    "Speed": 0.0, 
+    "Torque": 61.678431372533595, 
+    "Longitude": -122.31211, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.774704305318959, 
+    "Latitude": 47.655488166666665, 
+    "RPM": 768.0, 
+    "Speed": 0.0, 
+    "Torque": 59.36549019613239, 
+    "Longitude": -122.31210983333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.906695780278466, 
+    "Latitude": 47.655488166666665, 
+    "RPM": 769.25, 
+    "Speed": 0.0, 
+    "Torque": 60.9074509804654, 
+    "Longitude": -122.31211016666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.8571813150500285, 
+    "Latitude": 47.65548783333333, 
+    "RPM": 771.25, 
+    "Speed": 0.0, 
+    "Torque": 60.136470588200595, 
+    "Longitude": -122.3121105, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.898722598965045, 
+    "Latitude": 47.65548783333333, 
+    "RPM": 768.0, 
+    "Speed": 0.0, 
+    "Torque": 60.9074509804654, 
+    "Longitude": -122.31211083333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.942968708930058, 
+    "Latitude": 47.65548783333333, 
+    "RPM": 765.25, 
+    "Speed": 0.0, 
+    "Torque": 61.678431372533595, 
+    "Longitude": -122.31211116666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.614352527206679, 
+    "Latitude": 47.655488166666665, 
+    "RPM": 762.0, 
+    "Speed": 0.0, 
+    "Torque": 57.8235294117994, 
+    "Longitude": -122.31211183333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.923590850548104, 
+    "Latitude": 47.6554885, 
+    "RPM": 762.25, 
+    "Speed": 0.0, 
+    "Torque": 61.678431372533595, 
+    "Longitude": -122.31211233333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.688149871204219, 
+    "Latitude": 47.655489333333335, 
+    "RPM": 764.0, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.31211333333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.890749417651626, 
+    "Latitude": 47.65548966666667, 
+    "RPM": 766.75, 
+    "Speed": 0.0, 
+    "Torque": 60.9074509804654, 
+    "Longitude": -122.3121135, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.724967802129907, 
+    "Latitude": 47.65549033333333, 
+    "RPM": 770.0, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.31211483333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.759161648075082, 
+    "Latitude": 47.655490666666665, 
+    "RPM": 765.5, 
+    "Speed": 0.0, 
+    "Torque": 59.36549019613239, 
+    "Longitude": -122.3121155, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.668206825286138, 
+    "Latitude": 47.655491833333336, 
+    "RPM": 760.75, 
+    "Speed": 0.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.31211733333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.905765676747523, 
+    "Latitude": 47.655492333333335, 
+    "RPM": 786.5, 
+    "Speed": 0.0, 
+    "Torque": 71.7011764705998, 
+    "Longitude": -122.312118, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.811783063587887, 
+    "Latitude": 47.655493, 
+    "RPM": 765.75, 
+    "Speed": 0.0, 
+    "Torque": 72.472156862668, 
+    "Longitude": -122.31211916666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 6.343987869948432, 
+    "Latitude": 47.6554935, 
+    "RPM": 755.5, 
+    "Speed": 3.0, 
+    "Torque": 80.181960784333, 
+    "Longitude": -122.3121195, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.19859495742139, 
+    "Latitude": 47.655493666666665, 
+    "RPM": 882.0, 
+    "Speed": 5.0, 
+    "Torque": 56.2815686274664, 
+    "Longitude": -122.31211916666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.88235294118, 
+    "Power": 15.554526182125903, 
+    "Latitude": 47.655493666666665, 
+    "RPM": 1319.5, 
+    "Speed": 7.0, 
+    "Torque": 112.5631372549328, 
+    "Longitude": -122.31211916666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 8.62745098039, 
+    "Power": 24.509559357412513, 
+    "Latitude": 47.655494166666664, 
+    "RPM": 1921.25, 
+    "Speed": 14.0, 
+    "Torque": 121.8149019607342, 
+    "Longitude": -122.31212016666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 10.9803921569, 
+    "Power": 38.05266383951051, 
+    "Latitude": 47.65549383333333, 
+    "RPM": 2244.25, 
+    "Speed": 22.0, 
+    "Torque": 161.905882352999, 
+    "Longitude": -122.31212, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 14.5098039216, 
+    "Power": 64.56187688505362, 
+    "Latitude": 47.655490666666665, 
+    "RPM": 3135.75, 
+    "Speed": 31.0, 
+    "Torque": 196.6, 
+    "Longitude": -122.31211983333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.74509803922, 
+    "Power": 11.231669126701208, 
+    "Latitude": 47.6554825, 
+    "RPM": 2357.75, 
+    "Speed": 39.0, 
+    "Torque": 45.48784313733199, 
+    "Longitude": -122.31212, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.49019607843, 
+    "Power": 19.010446112921613, 
+    "Latitude": 47.65545633333333, 
+    "RPM": 1322.75, 
+    "Speed": 37.0, 
+    "Torque": 137.2345098038676, 
+    "Longitude": -122.3121205, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 7.8431372549, 
+    "Power": 20.870559035457617, 
+    "Latitude": 47.6554375, 
+    "RPM": 1412.5, 
+    "Speed": 38.0, 
+    "Torque": 141.08941176479837, 
+    "Longitude": -122.3121205, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.78431372549, 
+    "Power": 6.611422500876065, 
+    "Latitude": 47.655408333333334, 
+    "RPM": 1299.75, 
+    "Speed": 39.0, 
+    "Torque": 48.5717647058014, 
+    "Longitude": -122.31211566666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.100817513679398, 
+    "Latitude": 47.65537116666667, 
+    "RPM": 1263.5, 
+    "Speed": 37.0, 
+    "Torque": 38.549019607931804, 
+    "Longitude": -122.312086, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.4629630085989165, 
+    "Latitude": 47.65533883333333, 
+    "RPM": 1256.25, 
+    "Speed": 29.0, 
+    "Torque": 33.923137254932804, 
+    "Longitude": -122.31202383333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 5.339811100377155, 
+    "Latitude": 47.655315, 
+    "RPM": 1102.25, 
+    "Speed": 18.0, 
+    "Torque": 46.2588235294002, 
+    "Longitude": -122.31192483333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.9764156999071565, 
+    "Latitude": 47.655264333333335, 
+    "RPM": 893.25, 
+    "Speed": 8.0, 
+    "Torque": 53.1976470588004, 
+    "Longitude": -122.31166583333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 7.8431372549, 
+    "Power": 22.943384324249152, 
+    "Latitude": 47.65522516666667, 
+    "RPM": 1920.0, 
+    "Speed": 8.0, 
+    "Torque": 114.10509803926578, 
+    "Longitude": -122.31154083333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.88235294118, 
+    "Power": 19.60102671766544, 
+    "Latitude": 47.65512483333333, 
+    "RPM": 1772.0, 
+    "Speed": 14.0, 
+    "Torque": 105.6243137255326, 
+    "Longitude": -122.31130083333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.49019607843, 
+    "Power": 15.71713871037143, 
+    "Latitude": 47.65507866666667, 
+    "RPM": 1509.0, 
+    "Speed": 20.0, 
+    "Torque": 99.4564705882006, 
+    "Longitude": -122.311172, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.92156862745, 
+    "Power": 17.721757974715626, 
+    "Latitude": 47.65502383333333, 
+    "RPM": 1298.75, 
+    "Speed": 26.0, 
+    "Torque": 130.2956862744674, 
+    "Longitude": -122.31091016666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.92156862745, 
+    "Power": 7.532335035213585, 
+    "Latitude": 47.6550085, 
+    "RPM": 1227.5, 
+    "Speed": 34.0, 
+    "Torque": 58.5945098038676, 
+    "Longitude": -122.31079633333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 7.015269180716898, 
+    "Latitude": 47.654995166666666, 
+    "RPM": 1206.75, 
+    "Speed": 34.0, 
+    "Torque": 55.51058823520159, 
+    "Longitude": -122.31064133333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.602544144744734, 
+    "Latitude": 47.65498983333333, 
+    "RPM": 1266.75, 
+    "Speed": 25.0, 
+    "Torque": 34.694117647001, 
+    "Longitude": -122.3106075, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.385572686679674, 
+    "Latitude": 47.654975666666665, 
+    "RPM": 1108.5, 
+    "Speed": 15.0, 
+    "Torque": 37.778039215667, 
+    "Longitude": -122.3105505, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 6.27450980392, 
+    "Power": 19.801446255026807, 
+    "Latitude": 47.65495833333333, 
+    "RPM": 961.75, 
+    "Speed": 8.0, 
+    "Torque": 196.6, 
+    "Longitude": -122.31050766666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 8.62745098039, 
+    "Power": 28.570593286758466, 
+    "Latitude": 47.65488033333333, 
+    "RPM": 2225.5, 
+    "Speed": 16.0, 
+    "Torque": 122.585882352999, 
+    "Longitude": -122.31043466666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 7.8431372549, 
+    "Power": 25.43646691669705, 
+    "Latitude": 47.654816333333336, 
+    "RPM": 2032.5, 
+    "Speed": 27.0, 
+    "Torque": 119.50196078433298, 
+    "Longitude": -122.31042833333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 7.62038317923829, 
+    "Latitude": 47.654651333333334, 
+    "RPM": 1627.25, 
+    "Speed": 34.0, 
+    "Torque": 44.716862745067196, 
+    "Longitude": -122.31043083333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.103665217758929, 
+    "Latitude": 47.65456616666667, 
+    "RPM": 1337.5, 
+    "Speed": 35.0, 
+    "Torque": 29.2972549019338, 
+    "Longitude": -122.31043166666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 0.0, 
+    "Latitude": 47.654496, 
+    "RPM": 1306.5, 
+    "Speed": 36.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.31043416666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.78431372549, 
+    "Power": 0.0, 
+    "Latitude": 47.65440866666667, 
+    "RPM": 1329.75, 
+    "Speed": 37.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.31044, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 0.0, 
+    "Latitude": 47.65438416666667, 
+    "RPM": 1329.25, 
+    "Speed": 39.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.3104415, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 0.0, 
+    "Latitude": 47.65431233333334, 
+    "RPM": 1324.25, 
+    "Speed": 40.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.31044, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 0.0, 
+    "Latitude": 47.654251333333335, 
+    "RPM": 1307.75, 
+    "Speed": 42.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.31044033333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 0.0, 
+    "Latitude": 47.654092166666665, 
+    "RPM": 1228.0, 
+    "Speed": 39.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.31044483333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 0.0, 
+    "Latitude": 47.654003, 
+    "RPM": 1281.75, 
+    "Speed": 37.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.31044616666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.09803921569, 
+    "Power": 15.587791505662977, 
+    "Latitude": 47.65382233333333, 
+    "RPM": 1693.5, 
+    "Speed": 36.0, 
+    "Torque": 87.89176470580139, 
+    "Longitude": -122.3104545, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 7.45098039216, 
+    "Power": 21.37852133355362, 
+    "Latitude": 47.65373116666667, 
+    "RPM": 1708.25, 
+    "Speed": 38.0, 
+    "Torque": 119.50196078433298, 
+    "Longitude": -122.31046883333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 8.23529411765, 
+    "Power": 21.977620121866064, 
+    "Latitude": 47.653536833333334, 
+    "RPM": 1733.75, 
+    "Speed": 41.0, 
+    "Torque": 121.043921568666, 
+    "Longitude": -122.3104865, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 7.488876150732668, 
+    "Latitude": 47.653436, 
+    "RPM": 1472.25, 
+    "Speed": 43.0, 
+    "Torque": 48.5717647058014, 
+    "Longitude": -122.31049033333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 6.27450980392, 
+    "Power": 21.371416118822427, 
+    "Latitude": 47.653331333333334, 
+    "RPM": 1904.25, 
+    "Speed": 43.0, 
+    "Torque": 107.16627450986562, 
+    "Longitude": -122.31049366666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 1.56862745098, 
+    "Power": 6.251781560477857, 
+    "Latitude": 47.653227, 
+    "RPM": 1290.5, 
+    "Speed": 44.0, 
+    "Torque": 46.2588235294002, 
+    "Longitude": -122.310491, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.392156862745, 
+    "Power": 4.703369564138195, 
+    "Latitude": 47.65313116666667, 
+    "RPM": 1294.5, 
+    "Speed": 42.0, 
+    "Torque": 34.694117647001, 
+    "Longitude": -122.310472, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.35294117647, 
+    "Power": 5.402587287440802, 
+    "Latitude": 47.65304733333333, 
+    "RPM": 1338.25, 
+    "Speed": 41.0, 
+    "Torque": 38.549019607931804, 
+    "Longitude": -122.3104215, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 4.70588235294, 
+    "Power": 14.816108666148692, 
+    "Latitude": 47.652905, 
+    "RPM": 1683.5, 
+    "Speed": 40.0, 
+    "Torque": 84.0368627450672, 
+    "Longitude": -122.3102625, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.392156862745, 
+    "Power": 6.967026387466297, 
+    "Latitude": 47.652836666666666, 
+    "RPM": 1391.75, 
+    "Speed": 41.0, 
+    "Torque": 47.800784313733196, 
+    "Longitude": -122.31017266666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 7.05882352941, 
+    "Power": 21.97449140513911, 
+    "Latitude": 47.65269166666667, 
+    "RPM": 1680.0, 
+    "Speed": 40.0, 
+    "Torque": 124.8988235294002, 
+    "Longitude": -122.30997916666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 7.45098039216, 
+    "Power": 24.893725399851743, 
+    "Latitude": 47.652613833333334, 
+    "RPM": 2111.75, 
+    "Speed": 42.0, 
+    "Torque": 112.5631372549328, 
+    "Longitude": -122.30986833333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.88235294118, 
+    "Power": 19.177317732985596, 
+    "Latitude": 47.6524685, 
+    "RPM": 1708.75, 
+    "Speed": 44.0, 
+    "Torque": 107.16627450986562, 
+    "Longitude": -122.30962533333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 6.318877395135266, 
+    "Latitude": 47.65239833333333, 
+    "RPM": 1373.0, 
+    "Speed": 45.0, 
+    "Torque": 43.945882352999, 
+    "Longitude": -122.3094875, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 2.35294117647, 
+    "Power": 5.245041261729222, 
+    "Latitude": 47.65228416666667, 
+    "RPM": 1273.75, 
+    "Speed": 44.0, 
+    "Torque": 39.32, 
+    "Longitude": -122.30920483333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.78431372549, 
+    "Power": 4.272050732981245, 
+    "Latitude": 47.65223483333333, 
+    "RPM": 1290.5, 
+    "Speed": 43.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.3090665, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.093572583199793, 
+    "Latitude": 47.652156833333336, 
+    "RPM": 1300.0, 
+    "Speed": 41.0, 
+    "Torque": 30.0682352941986, 
+    "Longitude": -122.30878866666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 0.0, 
+    "Latitude": 47.65212983333333, 
+    "RPM": 1287.75, 
+    "Speed": 40.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.30864316666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 0.0, 
+    "Latitude": 47.65210833333333, 
+    "RPM": 1254.0, 
+    "Speed": 33.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.308494, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 0.0, 
+    "Latitude": 47.65207633333333, 
+    "RPM": 1223.75, 
+    "Speed": 21.0, 
+    "Torque": 0.0, 
+    "Longitude": -122.3081875, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.986649631373526, 
+    "Latitude": 47.65206083333333, 
+    "RPM": 908.25, 
+    "Speed": 8.0, 
+    "Torque": 52.4266666667322, 
+    "Longitude": -122.30802533333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 10.5882352941, 
+    "Power": 35.19891085790884, 
+    "Latitude": 47.65204633333333, 
+    "RPM": 2137.0, 
+    "Speed": 10.0, 
+    "Torque": 157.28, 
+    "Longitude": -122.30769066666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 10.9803921569, 
+    "Power": 43.27378555728924, 
+    "Latitude": 47.65204933333333, 
+    "RPM": 2748.5, 
+    "Speed": 20.0, 
+    "Torque": 150.34117647059978, 
+    "Longitude": -122.30752416666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 10.5882352941, 
+    "Power": 42.155925351872035, 
+    "Latitude": 47.652074, 
+    "RPM": 2868.75, 
+    "Speed": 28.0, 
+    "Torque": 140.31843137253358, 
+    "Longitude": -122.3072025, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 11.3725490196, 
+    "Power": 49.14503442379397, 
+    "Latitude": 47.65209616666667, 
+    "RPM": 2693.25, 
+    "Speed": 33.0, 
+    "Torque": 174.2415686274664, 
+    "Longitude": -122.3070515, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 12.5490196078, 
+    "Power": 52.67249094843258, 
+    "Latitude": 47.652154333333336, 
+    "RPM": 2764.25, 
+    "Speed": 39.0, 
+    "Torque": 181.9513725489348, 
+    "Longitude": -122.306766, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 9.80392156863, 
+    "Power": 36.73678614373786, 
+    "Latitude": 47.65218816666667, 
+    "RPM": 2527.75, 
+    "Speed": 44.0, 
+    "Torque": 138.7764705882006, 
+    "Longitude": -122.3066495, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 6.489644772117962, 
+    "Latitude": 47.6522375, 
+    "RPM": 1576.0, 
+    "Speed": 45.0, 
+    "Torque": 39.32, 
+    "Longitude": -122.30650316666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.690814326721755, 
+    "Latitude": 47.652249166666664, 
+    "RPM": 1417.0, 
+    "Speed": 41.0, 
+    "Torque": 31.610196078334997, 
+    "Longitude": -122.306472, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.09803921569, 
+    "Power": 24.98441781412748, 
+    "Latitude": 47.652259, 
+    "RPM": 1439.25, 
+    "Speed": 36.0, 
+    "Torque": 165.76078431373318, 
+    "Longitude": -122.30644666666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 5.09803921569, 
+    "Power": 16.652665379585812, 
+    "Latitude": 47.65230416666667, 
+    "RPM": 1462.75, 
+    "Speed": 37.0, 
+    "Torque": 108.7082352941986, 
+    "Longitude": -122.30634816666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.13725490196, 
+    "Power": 7.126449643183202, 
+    "Latitude": 47.65233966666667, 
+    "RPM": 1401.0, 
+    "Speed": 37.0, 
+    "Torque": 48.5717647058014, 
+    "Longitude": -122.30627016666666, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.13725490196, 
+    "Power": 7.300971480244421, 
+    "Latitude": 47.652433333333335, 
+    "RPM": 1310.5, 
+    "Speed": 36.0, 
+    "Torque": 53.1976470588004, 
+    "Longitude": -122.30608733333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.78431372549, 
+    "Power": 4.616169201419526, 
+    "Latitude": 47.65249516666667, 
+    "RPM": 1270.5, 
+    "Speed": 35.0, 
+    "Torque": 34.694117647001, 
+    "Longitude": -122.30598583333334, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 3.92156862745, 
+    "Power": 13.22256240800279, 
+    "Latitude": 47.6526545, 
+    "RPM": 1169.75, 
+    "Speed": 33.0, 
+    "Torque": 107.93725490193378, 
+    "Longitude": -122.30577, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 4.70588235294, 
+    "Power": 13.676831890182033, 
+    "Latitude": 47.652742833333335, 
+    "RPM": 1254.75, 
+    "Speed": 34.0, 
+    "Torque": 104.08235294119959, 
+    "Longitude": -122.30566633333333, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.301884560793752, 
+    "Latitude": 47.6529125, 
+    "RPM": 1332.0, 
+    "Speed": 34.0, 
+    "Torque": 30.839215686266797, 
+    "Longitude": -122.30549116666667, 
+    "Temperature": 10.0
+},
+{
+    "Accel_Pedal_Pos": 0.0, 
+    "Power": 4.561668974720358, 
+    "Latitude": 47.65299366666667, 
+    "RPM": 1255.5, 
+    "Speed": 32.0, 
+    "Torque": 34.694117647001, 
+    "Longitude": -122.30542616666666, 
+    "Temperature": 10.0
+}
+]
