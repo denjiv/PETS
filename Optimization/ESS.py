@@ -3,8 +3,10 @@
 # ESS.py
 
 import math
-import scipy.interpolate as sp
-import matplotlib.pyplot as plt
+#import scipy.interpolate as sp
+from scipy import interpolate as sp
+#import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 
 class ESS(object):
@@ -37,34 +39,37 @@ class ESS(object):
         self.MAX_CHARGE_CURRENT = MAX_CHARGE_CURRENT
         self.INIT_PACK_CAPACITY = INIT_PACK_CAPACITY
         self.MAX_PACK_CAPACITY = MAX_PACK_CAPACITY
-        self.SOC = (INIT_PACK_CAPACITY / MAX_PACK_CAPACITY) * 100
-        self.P_loss = 0
+        self.SOC = (INIT_PACK_CAPACITY / MAX_PACK_CAPACITY)
+        self.ESS_loss = 0
 
-        self.V_OC_TABLE = sp.interp1d([0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100], V_OC_TABLE, kind='linear')
+        self.V_OC_TABLE = sp.interp1d([0.0, 0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90, 1.00], V_OC_TABLE, kind='linear')
         self.V_OC = self.V_OC_TABLE(self.SOC)
 
-        self.R_int_TABLE = sp.interp1d([0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100], R_int_TABLE, kind='linear')
+        self.R_int_TABLE = sp.interp1d([0.0, 0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90, 1.00], R_int_TABLE, kind='linear')
 
-    def update_SOC(self, P_batt_output_1, P_batt_output_2, delta_t):
+    def update_SOC(self, P_batt_output_1, P_batt_output_2, delta_t, V_OC):
         """ Updates the current SOC based on the the output power of the
         battery and how long that power has been output"""
 
-        if (P_batt_output_1 > 0):
-            if(P_batt_output_1 / self.V_OC > self.MAX_DISCHARGE_CURRENT):
-                print('Max Discharge Current Reached')
+        #if (P_batt_output_1 > 0):
+        #    if(P_batt_output_1 / self.V_OC > self.MAX_DISCHARGE_CURRENT):
+                #print('Max Discharge Current Reached')
 
-        if (P_batt_output_1 < 0):
-            if(P_batt_output_1 / self.V_OC < self.MAX_CHARGE_CURRENT):
-                print('Max Charge Current Reached')
+        #if (P_batt_output_1 < 0):
+        #    if(P_batt_output_1 / self.V_OC < self.MAX_CHARGE_CURRENT):
+                #print('Max Charge Current Reached')
 
         I1 = self.get_battery_current(P_batt_output_1)
         I2 = self.get_battery_current(P_batt_output_2)
 
-        self.P_loss = pow(I1, 2) * self.R_int_TABLE(self.SOC)
+        P1_loss = pow(I1, 2) * self.R_int_TABLE(self.SOC)
+        P2_loss = pow(I2, 2) * self.R_int_TABLE(self.SOC)
+
+        self.ESS_loss = self.get_energy_loss(P1_loss, P2_loss, delta_t)
 
         current_capacity = self.SOC * self.MAX_PACK_CAPACITY
 
-        self.SOC = (current_capacity - self.integrate_current(I1, I2, delta_t)) / self.MAX_PACK_CAPACITY
+        self.SOC = (current_capacity - self.integrate_current(I1, I2, delta_t)*V_OC) / self.MAX_PACK_CAPACITY # multiplied by V_OC to convert to W*hr
 
         return self.SOC
 
@@ -73,12 +78,15 @@ class ESS(object):
         """Get the battery current based on a given output power"""
 
         V_OC_TABLE_2 = math.pow(self.V_OC_TABLE(self.SOC), 2)
-        V_diff = self.V_OC_TABLE(self.SOC) - math.sqrt(V_OC_TABLE_2 - P_batt_output * self.R_int_TABLE(self.SOC))
+        V_diff = self.V_OC_TABLE(self.SOC) - math.sqrt(V_OC_TABLE_2 - 4 * P_batt_output * self.R_int_TABLE(self.SOC))
         return (V_diff / (2 * self.R_int_TABLE(self.SOC)))
 
     def integrate_current(self, I1, I2, delta_t):
-        return (I1 + (I2 - I1)/2)*delta_t
-'''
+        return (I1 + (I2 - I1)/2)*delta_t/3600 # to get Amp*hr
+
+    def get_energy_loss(self, P1_loss, P2_loss,  delta_t):
+        return (P1_loss + (P2_loss - P1_loss)/2)*delta_t
+
 def main():
     MAX_PACK_CAPACITY = 19000.0
     INIT_PACK_CAPACITY = 18000.0
@@ -91,12 +99,16 @@ def main():
     s = []
     v = []
 
-    while(battery.SOC > 30):
-        battery.update_SOC(50000, 50000, 10)
-        #print(battery.SOC)
+    count = 0
+    while(battery.SOC > 0.1):
+        battery.update_SOC(60000, 60000, 1, battery.V_OC)
+        print(battery.SOC)
+        print(battery.ESS_loss)
         s.append(battery.SOC)
         v.append(battery.V_OC_TABLE(battery.SOC))
+        count = count + 1
 
+    print(count/60)
 
-main()
-'''
+if __name__ == '__main__':
+    main()
