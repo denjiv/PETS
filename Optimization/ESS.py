@@ -98,17 +98,21 @@ def main():
     print(battery.SOC)
     s = []
     v = []
+    l = []
 
     count = 0
     while(battery.SOC > 0.1):
-        battery.update_SOC(60000, 60000, 1, battery.V_OC)
+        battery.update_SOC(18000, 18000, 1, battery.V_OC)
         print(battery.SOC)
         print(battery.ESS_loss)
         s.append(battery.SOC)
         v.append(battery.V_OC_TABLE(battery.SOC))
+        l.append(battery.ESS_loss)
         count = count + 1
 
     print(count/60)
+    plt.plot(s, v, 'g', s, l, 'b')
+    plt.show()
 
 if __name__ == '__main__':
     main()
