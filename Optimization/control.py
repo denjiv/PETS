@@ -14,7 +14,7 @@ P_E_MAX = 78000
 P2 = P_E_MAX
 P_OPT = 20000
 P_l = P_OPT
-step_size = 0.5
+step_size = 1000
 
 def CD_E(P_req):
     '''Return power provided by the engine and battery in charge
@@ -113,29 +113,30 @@ def init_genset(init_tank):
 
 def main(file_json):
     P_d = json.loads(open(file_json).read())
-    f1 = open('./log1', 'w+')
+    f1 = open('./log3', 'w+')
 
     # Preprocess pd and t
     pd = []
     t = []
     for i in range(0, len(P_d.keys())):
-        pd.append(P_d[str(i)]['Power'] * 1000)
+        pd.append(P_d[str(i)]['Power'] * 1000) # add * 1000
         t.append(P_d[str(i)]['Time'])
 
-    print('Hello')
+
+    #print('Hello')
     # Choose the P1 values
 
     cost = {}
     for P1 in np.arange(P_OPT, P2, step_size):
         # Choose the P_h values
         for P_h in np.arange(P_OPT, P1, step_size):
+            #print('P1 and Ph: %s, %s' % (P1, P_h))
             #f1.write('for P1 ' + str(P1) + ':\n')
             # Iterate through the P_d values
-
             ESS = init_ESS(.38)
             Genset = init_genset(1.00)
             c = 0;
-            print(P_h)
+            #print(P_h)
             for i in range(1, len(P_d)):
 
                 P_batt_output_1 = pd[i-1]
@@ -145,27 +146,32 @@ def main(file_json):
                 [P_batt_output_1_genset, P_batt_output_1_ess] = control(P_batt_output_1, P1, P_h, ESS.SOC)
                 [P_batt_output_2_genset, P_batt_output_2_ess] = control(P_batt_output_2, P1, P_h, ESS.SOC)
 
-                ESS.update_SOC(P_batt_output_1_ess, P_batt_output_2_ess, delta_t)
+                #print 'P_REQ ' + str(P_batt_output_1)
+                #print 'P_e ' + str(P_batt_output_1_genset)
+                #print 'P_batt ' + str(P_batt_output_1_ess)
+                print 'P_batt_output_1_ess ' + str(P_batt_output_1_ess)
+                print 'P_batt_output_2_ess ' + str(P_batt_output_2_ess)
+                print 'delta_t ' + str(delta_t)
+                print 'ESS.V_OC ' + str(ESS.V_OC)
+                ESS.update_SOC(P_batt_output_1_ess, P_batt_output_2_ess, delta_t, ESS.V_OC)
                 Genset.update_fuel_level(P_batt_output_1_genset, P_batt_output_2_genset, delta_t)
 
                 #print('%d %d' % (P_batt_output_1_ess, P_batt_output_1_genset))
                 c = c + ESS.ESS_loss + Genset.Genset_loss
                 # P_dist.append(
-                print(ESS.SOC)
+                #print('SOC ' + str(ESS.SOC))
+                #print 'Fuel level ' + str(Genset.fuel_level)
                 #f1.write('\tfor P_h of ' + str(P_h) + ':\n')
                 #f1.write('\t\t P_e:' + str(P_dist[0]) + '\n')
                 #f1.write('\t\t P_batt:' + str(P_dist[1]) + '\n')
 
-
             cost[P1, P_h] = c
-            print('%s, %s' % (P1, P_h))
-            print(c)
+            #print('cost ' + str(c))
 
 
 
-            break;
 
     f1.write(str(cost))
 
 
-main('Powertrace.json')
+main('Pt.json')

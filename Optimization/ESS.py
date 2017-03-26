@@ -78,6 +78,8 @@ class ESS(object):
         """Get the battery current based on a given output power"""
 
         V_OC_TABLE_2 = math.pow(self.V_OC_TABLE(self.SOC), 2)
+        #print V_OC_TABLE_2
+        #print 4 * P_batt_output * self.R_int_TABLE(self.SOC)
         V_diff = self.V_OC_TABLE(self.SOC) - math.sqrt(V_OC_TABLE_2 - 4 * P_batt_output * self.R_int_TABLE(self.SOC))
         return (V_diff / (2 * self.R_int_TABLE(self.SOC)))
 
