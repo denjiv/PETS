@@ -1,6 +1,7 @@
 import json
 from math import radians, cos, sin, asin, sqrt, fabs
 import overpy
+import matplotlib.pyplot as plt
 
 def prune_drive_to_waze(waze_file_name, drive_file_name, get_speed_limits=True):
 
@@ -59,6 +60,45 @@ def export_data_as_JSON(data, file_name):
 					indent=4,
 					ensure_ascii=False  )
 
+def plot_raw_drive_speeds(drive_file_name):
+
+	with open(drive_file_name) as drive_file:
+			drive_data = json.load(drive_file) #drive data is encoded as dicts inside a list
+
+	distances = []
+	drive_speeds = []
+
+	distances.append(0)
+	drive_speeds.append(drive_data[1]["Speed (OBD)(mph)"])
+
+	for i in range(1, len(drive_data)):
+		print("processing raw drive data" + str(i))
+		distances.append(distances[i - 1] 
+			+ get_distance_between_coords (drive_data[i - 1]["Latitude"], drive_data[i - 1]["Longitude"],
+			 drive_data[i]["Latitude"], drive_data[i]["Longitude"]))
+		drive_speeds.append(drive_data[i]["Speed (OBD)(mph)"])
+
+	plt.plot(distances, drive_speeds, color="y")
+
+
+def plot_data(data):
+	distances = []
+	waze_speeds = []
+	drive_speeds = []
+	speed_limits = []
+
+	for i in range(1, len(data) + 1):
+		distances.append(data[i]["distance"])
+		waze_speeds.append(data[i]["waze_speed"])
+		drive_speeds.append(data[i]["drive_speed"])
+		if "speed_limit" in data[i].keys():
+			speed_limits.append(data[i]["speed_limit"])
+
+	plt.plot(distances, waze_speeds, color="b")
+	plt.plot(distances, drive_speeds, color="r")
+	if len(speed_limits) > 0:
+		plt.plot(distances, speed_limits, color="g")
+
 
 def get_distance_between_coords (lat1, lon1, lat2, lon2):
 	"""
@@ -77,21 +117,25 @@ def get_distance_between_coords (lat1, lon1, lat2, lon2):
 
 def get_speed_limit(api, lat, lon):
 
-    # fetch closest way to designated lat, lon
-    result = api.query("""<query type="way">
-        <around lat=\"""" + str(lat) + """\" lon=\"""" + str(lon) + """\" radius="5"/>
-        <has-kv k="highway" v=""/>
-        <has-kv k="maxspeed" v=""/>
-        </query>
-        <print/>""")
-    if (len(result.ways) > 0):
-        return int(result.ways[0].tags.get("maxspeed", "n/a").split(" ")[0])
-    else:
-        return 0
+	# fetch closest way to designated lat, lon
+	result = api.query("""<query type="way">
+		<around lat=\"""" + str(lat) + """\" lon=\"""" + str(lon) + """\" radius="5"/>
+		<has-kv k="highway" v=""/>
+		<has-kv k="maxspeed" v=""/>
+		</query>
+		<print/>""")
+	if (len(result.ways) > 0):
+		return int(result.ways[0].tags.get("maxspeed", "n/a").split(" ")[0])
+	else:
+		return 0
 
 def main():
 	data = prune_drive_to_waze("REI_waze.json", "REI_drive.json")
 	export_data_as_JSON(data, "pruned_REI_data.json")
+	plt.subplot(1, 1, 1)
+	# plot_raw_drive_speeds("REI_drive.json")
+	plot_data(data)
+	plt.show()
 
 if __name__ == "__main__":
 	main()
