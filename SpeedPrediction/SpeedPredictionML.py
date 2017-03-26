@@ -3,10 +3,11 @@ from pybrain.datasets import SupervisedDataSet
 from pybrain.supervised.trainers import BackpropTrainer
 import random as r
 import matplotlib.pyplot as plt
+import numpy as np
 
 def train_dataset(x_train, y_train):
 
-	# y_train = y_train.reshape( -1, 1 )
+	y_train = y_train.reshape( -1, 1 )
 
 	ds = SupervisedDataSet(len(x_train), len(y_train))
 	for i in range(len(x_train)):
@@ -18,17 +19,15 @@ def train_dataset(x_train, y_train):
 	trainer = BackpropTrainer( net, ds )
 
 	print ("Training Model...")
-	print (trainer.trainUntilConvergence())
+	print (trainer.trainUntilConvergence(verbose = True, maxEpochs = 5)) # gives double proportional to error
 	print ("Done Training.")
 
-	predicted_values = []
 
-	for value in x_train:
-		predicted_values.append(net.activate(x_train))
+	predicted_values = net.activate(x_train)
 
 	return predicted_values
 
-	
+
 
 def make_fake_speed_data (aggression):
 	speed_limits = []
@@ -53,15 +52,20 @@ def main():
 	waze_speeds = data[1]
 	drive_speeds = data[2]
 
-	predicted_speeds = train_dataset(waze_speeds, drive_speeds)
+	waze_speeds_a = np.asarray(waze_speeds)
+	drive_speeds_a = np.asarray(drive_speeds)
+
+
+	predicted_speeds = train_dataset(waze_speeds_a, drive_speeds_a)
 
 	plt.subplot(1, 1, 1)
 	plt.plot(range(0, len(data[0])), predicted_speeds, color="r")
-	plt.plot(range(0, len(data[0])), y_train, color="b")
+	plt.plot(range(0, len(data[0])), drive_speeds, color="b")
+	plt.plot(range(0, len(data[0])), speed_limits, color="g")
+	plt.plot(range(0, len(data[0])), waze_speeds, color="m")
+
 	plt.show()
 	print("done")
 
 if __name__ == "__main__":
 	main()
-
-
