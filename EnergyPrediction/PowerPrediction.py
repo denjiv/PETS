@@ -26,7 +26,6 @@ class PowerPrediction(object):
 		self.lr = LinearRegression()
 		self.trainArr = np.zeros((1, 6))
 		self.trainRes = np.zeros((1, 1))
-		self.prediction  # output
 
 	# Adds data from inputted JSON files (JSON for car and map data, 
 	# respectively) to training data
@@ -93,14 +92,20 @@ class PowerPrediction(object):
 		curr_speed = 0
 		past_speed = json_car_data[0]['Speed'] # Sets past speed to first value
 		count = 0;
+		past_time = Double.parseDouble(json_car_data[0]['Device Time'][18:24])
+		curr_time = -1
 
 		for i in json_car_data: # parses car data
-			curr_speed = i['Speed']
+			curr_time = Double.parseDouble(i['Device Time'][18:24])
+			if (curr_time < past_time):
+				past_time -= 60
+			time_diff = curr_time - past_time
+			curr_speed = i['Speed'] * time_diff
 			# if (curr_speed > past_speed):
 			# 	pos_acc_change = pos_acc_change + curr_speed**2 - past_speed**2
 			# else:
 			# 	neg_acc_change = neg_acc_change + past_speed**2 - curr_speed**2
-			power = power + i['Power']
+			power = power + i['Power'] * time_diff
 			count = count + 1
 			totalVelocity = totalVelocity + curr_speed
 
