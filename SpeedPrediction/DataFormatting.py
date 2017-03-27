@@ -38,6 +38,8 @@ def prune_drive_to_waze(waze_file_name, drive_file_name, get_speed_limits=True):
 				out_data[out_node]["waze_speed"] = waze_data[str(i)]["speed"]
 				out_data[out_node]["drive_speed"] = drive_data[j]["Speed (OBD)(mph)"]
 				out_data[out_node]["distance"] = waze_data[str(i)]["distance_from_start"]
+				out_data[out_node]["elevation(ft)"] = drive_data[j]["Altitude"]
+				out_data[out_node]["time"] = drive_data[j]["Device Time"]
 				if get_speed_limits:
 					speed_limit = get_speed_limit(api, drive_lat, drive_lon)
 					if speed_limit == 0 and out_node > 1:
@@ -133,7 +135,7 @@ def main():
 	data = prune_drive_to_waze("REI_waze.json", "REI_drive.json")
 	export_data_as_JSON(data, "pruned_REI_data.json")
 	plt.subplot(1, 1, 1)
-	# plot_raw_drive_speeds("REI_drive.json")
+	plot_raw_drive_speeds("REI_drive.json")
 	plot_data(data)
 	plt.show()
 
