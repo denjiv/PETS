@@ -123,7 +123,7 @@ def main(file_json):
         t.append(P_d[str(i)]['Time'])
 
 
-    #print('Hello')
+    #print('Hello')every value in cube test python
     # Choose the P1 values
 
     cost = {}
@@ -171,6 +171,7 @@ def main(file_json):
                     #f1.write('\t\t P_batt:' + str(P_dist[1]) + '\n')
 
                 cost[P1, P_h, P_l] = c
+        print [str(P1) + ' out of ' + str(P_E_MAX)]
                 #print('cost ' + str(c))
 
 
@@ -179,7 +180,7 @@ def main(file_json):
     f1.write(str(cost))
 
 
-main('Pt.json')
+main('Powertrace.json')
 '''
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
