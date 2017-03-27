@@ -10,18 +10,23 @@ class PowerTrace:
         with open(file_name) as data_file:
             can_data = json.load(data_file)
 
-        init_time = get_sec(can_data[0]["Time"])
+        init_time = get_sec(can_data[0]["GPS Time"])
 
         self.time_data = []
         self.power_data = []
 
         for i in range(len(can_data)):
-            time = get_sec(can_data[i]["Time"]) - init_time
+            time = get_sec(can_data[i]["GPS Time"]) - init_time
             if (time < 0):
                 time += 24 * 3600
             self.time_data.append(time)
-            self.power_data.append(can_data[i]["Power"])
-            print(can_data[i]["Power"])
+            power = (float(can_data[i]["Engine Load(%)"])/100) * 111 * can_data[i]["Engine RPM(rpm)"] / 9.5488
+            power_mg1 = (float(can_data[i]["MG1 Torque(Nm)"])) * float(can_data[i]["MG1 Revolution(RPM)"]) / 9.5488
+            power_mg2 = (float(can_data[i]["MG2 Torque(Nm)"])) * float(can_data[i]["MG2 Revolution(RPM)"]) / 9.5488
+            if(power_mg2 < 0):
+                power_mg2 = 0
+            self.power_data.append(power + power_mg1 + power_mg2)
+            #print(can_data[i]["Power"])
 
 
     def show_power_trace(self):
@@ -47,12 +52,13 @@ class PowerTrace:
 
 
 def get_sec(time_str):
+    time_str = time_str[11:19]
     h, m, s = time_str.split(':')
     return float(h) * 3600.0 + float(m) * 60.0 + float(s)
 
 def main():
-    pt = PowerTrace("to.json")
-    pt.exportJSON("PowerTrace.json")
+    pt = PowerTrace("To_CdA_Act.json")
+    pt.exportJSON("PowerTraceCDA.json")
 
 
 main()
