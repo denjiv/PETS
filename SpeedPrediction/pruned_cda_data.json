@@ -1,0 +1,692 @@
+{
+    "1": {
+        "Latitude": 47.626239999999996, 
+        "Longitude": -117.35782, 
+        "distance": 0.10563307000000001, 
+        "drive_speed": 26.71896172, 
+        "elevation(ft)": 694, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:57:30.604", 
+        "waze_speed": 26.56361025
+    }, 
+    "2": {
+        "Latitude": 47.627089999999995, 
+        "Longitude": -117.357819, 
+        "distance": 0.150993153, 
+        "drive_speed": 25.47621918, 
+        "elevation(ft)": 694, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:57:38.799", 
+        "waze_speed": 16.32962988
+    }, 
+    "3": {
+        "Latitude": 47.62774699999999, 
+        "Longitude": -117.357818, 
+        "distance": 0.18144033199999998, 
+        "drive_speed": 21.12662125, 
+        "elevation(ft)": 694, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:57:45.538", 
+        "waze_speed": 7.3073229600000005
+    }, 
+    "4": {
+        "Latitude": 47.62818599999999, 
+        "Longitude": -117.357818, 
+        "distance": 0.21126614000000002, 
+        "drive_speed": 16.15565109, 
+        "elevation(ft)": 695, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:58:03.517", 
+        "waze_speed": 15.338986971428573
+    }, 
+    "5": {
+        "Latitude": 47.628622, 
+        "Longitude": -117.357819, 
+        "distance": 0.259733078, 
+        "drive_speed": 25.47621918, 
+        "elevation(ft)": 695, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:58:07.576", 
+        "waze_speed": 24.92585382857143
+    }, 
+    "6": {
+        "Latitude": 47.629325, 
+        "Longitude": -117.357816, 
+        "distance": 0.318763323, 
+        "drive_speed": 27.96170425, 
+        "elevation(ft)": 695, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:58:13.909", 
+        "waze_speed": 35.418147
+    }, 
+    "7": {
+        "Latitude": 47.631868999999995, 
+        "Longitude": -117.357816, 
+        "distance": 0.494611316, 
+        "drive_speed": 29.82581711, 
+        "elevation(ft)": 690, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:58:37.110", 
+        "waze_speed": 35.418147
+    }, 
+    "8": {
+        "Latitude": 47.632723999999996, 
+        "Longitude": -117.357812, 
+        "distance": 0.5536415610000001, 
+        "drive_speed": 29.20444679, 
+        "elevation(ft)": 687, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:58:43.836", 
+        "waze_speed": 30.358411714285715
+    }, 
+    "9": {
+        "Latitude": 47.633573999999996, 
+        "Longitude": -117.35781000000001, 
+        "distance": 0.612671806, 
+        "drive_speed": 31.68992996, 
+        "elevation(ft)": 682, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:58:50.422", 
+        "waze_speed": 30.358411714285715
+    }, 
+    "10": {
+        "Latitude": 47.634423999999996, 
+        "Longitude": -117.35781000000001, 
+        "distance": 0.685372213, 
+        "drive_speed": 31.68992996, 
+        "elevation(ft)": 676, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:58:58.088", 
+        "waze_speed": 32.71518315
+    }, 
+    "11": {
+        "Latitude": 47.63547200000001, 
+        "Longitude": -117.35780600000001, 
+        "distance": 0.7487520550000001, 
+        "drive_speed": 26.09758949, 
+        "elevation(ft)": 671, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:59:06.725", 
+        "waze_speed": 32.59534731428571
+    }, 
+    "12": {
+        "Latitude": 47.63639, 
+        "Longitude": -117.35780000000001, 
+        "distance": 0.8115105260000001, 
+        "drive_speed": 20.50524902, 
+        "elevation(ft)": 669, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:59:17.600", 
+        "waze_speed": 32.27578508571429
+    }, 
+    "13": {
+        "Latitude": 47.637301, 
+        "Longitude": -117.35778800000001, 
+        "distance": 0.873026255, 
+        "drive_speed": 29.82581711, 
+        "elevation(ft)": 666, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:59:27.106", 
+        "waze_speed": 27.68207805
+    }, 
+    "14": {
+        "Latitude": 47.63819099999999, 
+        "Longitude": -117.357741, 
+        "distance": 0.8953956110000001, 
+        "drive_speed": 29.82581711, 
+        "elevation(ft)": 666, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:59:33.840", 
+        "waze_speed": 26.843227199999998
+    }, 
+    "15": {
+        "Latitude": 47.638511308546505, 
+        "Longitude": -117.35773779234378, 
+        "distance": 0.9351633549999999, 
+        "drive_speed": 28.58307457, 
+        "elevation(ft)": 664, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:59:36.662", 
+        "waze_speed": 23.8606464
+    }, 
+    "16": {
+        "Latitude": 47.639087687223, 
+        "Longitude": -117.35774775214, 
+        "distance": 0.9687173889999999, 
+        "drive_speed": 31.06855965, 
+        "elevation(ft)": 657, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:59:41.758", 
+        "waze_speed": 20.1324204
+    }, 
+    "17": {
+        "Latitude": 47.639572, 
+        "Longitude": -117.357733, 
+        "distance": 1.0140774719999999, 
+        "drive_speed": 31.06855965, 
+        "elevation(ft)": 652, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:59:45.669", 
+        "waze_speed": 32.65925976
+    }, 
+    "18": {
+        "Latitude": 47.640232, 
+        "Longitude": -117.35773199999998, 
+        "distance": 1.071864975, 
+        "drive_speed": 31.68992996, 
+        "elevation(ft)": 644, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:59:50.749", 
+        "waze_speed": 26.004376349999998
+    }, 
+    "19": {
+        "Latitude": 47.641072, 
+        "Longitude": -117.35772500000002, 
+        "distance": 1.10604038, 
+        "drive_speed": 29.82581711, 
+        "elevation(ft)": 633, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 10:59:57.926", 
+        "waze_speed": 24.6062916
+    }, 
+    "20": {
+        "Latitude": 47.641566, 
+        "Longitude": -117.35771900000002, 
+        "distance": 1.117225058, 
+        "drive_speed": 35.41815948, 
+        "elevation(ft)": 636, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:01.985", 
+        "waze_speed": 40.2648408
+    }, 
+    "21": {
+        "Latitude": 47.641728, 
+        "Longitude": -117.357718, 
+        "distance": 1.147672237, 
+        "drive_speed": 38.52501297, 
+        "elevation(ft)": 630, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:02.715", 
+        "waze_speed": 36.5366148
+    }, 
+    "22": {
+        "Latitude": 47.642168, 
+        "Longitude": -117.357714, 
+        "distance": 1.188682723, 
+        "drive_speed": 39.14638519, 
+        "elevation(ft)": 622, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:05.588", 
+        "waze_speed": 24.606291600000002
+    }, 
+    "23": {
+        "Latitude": 47.642759999999996, 
+        "Longitude": -117.35771100000001, 
+        "distance": 1.224722241, 
+        "drive_speed": 39.14638519, 
+        "elevation(ft)": 616, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:09.576", 
+        "waze_speed": 25.948452959999997
+    }, 
+    "24": {
+        "Latitude": 47.643277999999995, 
+        "Longitude": -117.357709, 
+        "distance": 1.2762960339999998, 
+        "drive_speed": 37.90364456, 
+        "elevation(ft)": 609, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:12.831", 
+        "waze_speed": 37.13313096
+    }, 
+    "25": {
+        "Latitude": 47.64402199999999, 
+        "Longitude": -117.35770400000001, 
+        "distance": 1.314199665, 
+        "drive_speed": 38.52501297, 
+        "elevation(ft)": 597, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:17.752", 
+        "waze_speed": 34.1132679
+    }, 
+    "26": {
+        "Latitude": 47.644574, 
+        "Longitude": -117.35770600000002, 
+        "distance": 1.377579507, 
+        "drive_speed": 27.34033203, 
+        "elevation(ft)": 589, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:22.845", 
+        "waze_speed": 32.59534731428571
+    }, 
+    "27": {
+        "Latitude": 47.645492710261, 
+        "Longitude": -117.35770954844, 
+        "distance": 1.4366097519999999, 
+        "drive_speed": 38.52501297, 
+        "elevation(ft)": 582, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:28.562", 
+        "waze_speed": 35.418147
+    }, 
+    "28": {
+        "Latitude": 47.646342999999995, 
+        "Longitude": -117.35770099999999, 
+        "distance": 1.462707334, 
+        "drive_speed": 37.28227234, 
+        "elevation(ft)": 578, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:34.927", 
+        "waze_speed": 31.3170984
+    }, 
+    "29": {
+        "Latitude": 47.646725101577, 
+        "Longitude": -117.35770284292, 
+        "distance": 1.471406528, 
+        "drive_speed": 36.66090012, 
+        "elevation(ft)": 576, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:37.561", 
+        "waze_speed": 31.317098400000003
+    }, 
+    "30": {
+        "Latitude": 47.64684797771, 
+        "Longitude": -117.3576974785, 
+        "distance": 1.5198734660000002, 
+        "drive_speed": 36.66090012, 
+        "elevation(ft)": 576, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:37.561", 
+        "waze_speed": 29.0801628
+    }, 
+    "31": {
+        "Latitude": 47.64755099999999, 
+        "Longitude": -117.35769899999998, 
+        "distance": 1.534164999, 
+        "drive_speed": 32.93267441, 
+        "elevation(ft)": 574, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:43.855", 
+        "waze_speed": 25.7247594
+    }, 
+    "32": {
+        "Latitude": 47.647755, 
+        "Longitude": -117.35769800000001, 
+        "distance": 1.5664762909999999, 
+        "drive_speed": 32.31130219, 
+        "elevation(ft)": 574, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:44.581", 
+        "waze_speed": 19.3867752
+    }, 
+    "33": {
+        "Latitude": 47.64822099999999, 
+        "Longitude": -117.357696, 
+        "distance": 1.5770395979999998, 
+        "drive_speed": 29.20444679, 
+        "elevation(ft)": 574, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:49.011", 
+        "waze_speed": 38.027905200000006
+    }, 
+    "34": {
+        "Latitude": 47.648371999999995, 
+        "Longitude": -117.35769899999998, 
+        "distance": 1.6901291200000002, 
+        "drive_speed": 27.96170425, 
+        "elevation(ft)": 573, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:00:50.418", 
+        "waze_speed": 9.252779072727272
+    }, 
+    "35": {
+        "Latitude": 47.650009, 
+        "Longitude": -117.357691, 
+        "distance": 1.7149839599999999, 
+        "drive_speed": 12.42742348, 
+        "elevation(ft)": 573, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:01:54.698", 
+        "waze_speed": 14.912904
+    }, 
+    "36": {
+        "Latitude": 47.65037155597877, 
+        "Longitude": -117.35769180211433, 
+        "distance": 1.72119767, 
+        "drive_speed": 20.50524902, 
+        "elevation(ft)": 573, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:01:59.768", 
+        "waze_speed": 22.369356
+    }, 
+    "37": {
+        "Latitude": 47.65046099999999, 
+        "Longitude": -117.35769200000001, 
+        "distance": 1.7528875910000001, 
+        "drive_speed": 21.12662125, 
+        "elevation(ft)": 573, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:02:00.456", 
+        "waze_speed": 22.816743119999995
+    }, 
+    "38": {
+        "Latitude": 47.650921, 
+        "Longitude": -117.35768600000002, 
+        "distance": 1.809432352, 
+        "drive_speed": 23.61210442, 
+        "elevation(ft)": 573, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:02:05.405", 
+        "waze_speed": 13.57074264
+    }, 
+    "39": {
+        "Latitude": 47.651736037661394, 
+        "Longitude": -117.35765624225367, 
+        "distance": 1.87654042, 
+        "drive_speed": 18.64113617, 
+        "elevation(ft)": 571, 
+        "speed_limit": 25, 
+        "time": "25-Mar-2017 11:02:17.075", 
+        "waze_speed": 20.1324204
+    }, 
+    "40": {
+        "Latitude": 47.652708, 
+        "Longitude": -117.357676, 
+        "distance": 1.939920262, 
+        "drive_speed": 15.53427982, 
+        "elevation(ft)": 572, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:02:30.621", 
+        "waze_speed": 12.675968399999999
+    }, 
+    "41": {
+        "Latitude": 47.653620932348154, 
+        "Longitude": -117.357669, 
+        "distance": 2.076000511, 
+        "drive_speed": 11.18468189, 
+        "elevation(ft)": 570, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:02:51.470", 
+        "waze_speed": 27.216049800000004
+    }, 
+    "42": {
+        "Latitude": 47.65362100000001, 
+        "Longitude": -117.354748, 
+        "distance": 2.1772839840000002, 
+        "drive_speed": 39.14638519, 
+        "elevation(ft)": 568, 
+        "speed_limit": 30, 
+        "time": "25-Mar-2017 11:03:09.049", 
+        "waze_speed": 36.46205028
+    }, 
+    "43": {
+        "Latitude": 47.65386329460564, 
+        "Longitude": -117.32759711408609, 
+        "distance": 3.602087687, 
+        "drive_speed": 61.51574707, 
+        "elevation(ft)": 578, 
+        "speed_limit": 60, 
+        "time": "25-Mar-2017 11:04:23.700", 
+        "waze_speed": 61.590293519999996
+    }, 
+    "44": {
+        "Latitude": 47.666141999999994, 
+        "Longitude": -117.307166, 
+        "distance": 5.627135775999999, 
+        "drive_speed": 62.75849152, 
+        "elevation(ft)": 577, 
+        "speed_limit": 60, 
+        "time": "25-Mar-2017 11:05:40.383", 
+        "waze_speed": 63.976358160000004
+    }, 
+    "45": {
+        "Latitude": 47.67270650990108, 
+        "Longitude": -117.28877351653318, 
+        "distance": 6.211224516000001, 
+        "drive_speed": 67.10808563, 
+        "elevation(ft)": 587, 
+        "speed_limit": 60, 
+        "time": "25-Mar-2017 11:06:36.066", 
+        "waze_speed": 61.844690117647055
+    }, 
+    "46": {
+        "Latitude": 47.674417, 
+        "Longitude": -117.276516, 
+        "distance": 7.55587136, 
+        "drive_speed": 62.75849152, 
+        "elevation(ft)": 592, 
+        "speed_limit": 60, 
+        "time": "25-Mar-2017 11:07:08.411", 
+        "waze_speed": 62.8666056935065
+    }, 
+    "47": {
+        "Latitude": 47.670921603539234, 
+        "Longitude": -117.20561894113919, 
+        "distance": 10.411071105, 
+        "drive_speed": 67.10808563, 
+        "elevation(ft)": 592, 
+        "speed_limit": 60, 
+        "time": "25-Mar-2017 11:10:19.125", 
+        "waze_speed": 65.2042930212766
+    }, 
+    "48": {
+        "Latitude": 47.665522705476484, 
+        "Longitude": -117.17263340986837, 
+        "distance": 11.687988509999998, 
+        "drive_speed": 70.21494293, 
+        "elevation(ft)": 602, 
+        "speed_limit": 60, 
+        "time": "25-Mar-2017 11:11:49.305", 
+        "waze_speed": 69.02544137142858
+    }, 
+    "49": {
+        "Latitude": 47.668628, 
+        "Longitude": -117.11631000000001, 
+        "distance": 14.16104509, 
+        "drive_speed": 65.24397278, 
+        "elevation(ft)": 616, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:14:13.218", 
+        "waze_speed": 66.0484669263158
+    }, 
+    "50": {
+        "Latitude": 47.694295190143585, 
+        "Longitude": -117.05337701852417, 
+        "distance": 17.538196475, 
+        "drive_speed": 69.59357452, 
+        "elevation(ft)": 613, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:17:19.748", 
+        "waze_speed": 71.5819392
+    }, 
+    "51": {
+        "Latitude": 47.69959071380974, 
+        "Longitude": -117.02450581869314, 
+        "distance": 19.352599795, 
+        "drive_speed": 71.45768738, 
+        "elevation(ft)": 628, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:18:31.611", 
+        "waze_speed": 73.45807873548387
+    }, 
+    "52": {
+        "Latitude": 47.706973, 
+        "Longitude": -117.00728699999998, 
+        "distance": 19.955329665, 
+        "drive_speed": 66.48671722, 
+        "elevation(ft)": 633, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:19:24.207", 
+        "waze_speed": 72.38084477142858
+    }, 
+    "53": {
+        "Latitude": 47.70920179381966, 
+        "Longitude": -117.0013478827854, 
+        "distance": 20.391532107, 
+        "drive_speed": 70.21494293, 
+        "elevation(ft)": 633, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:19:41.249", 
+        "waze_speed": 68.38631691428571
+    }, 
+    "54": {
+        "Latitude": 47.709942, 
+        "Longitude": -116.99287900000002, 
+        "distance": 22.20158583, 
+        "drive_speed": 68.97220612, 
+        "elevation(ft)": 634, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:20:01.746", 
+        "waze_speed": 69.32120641276596
+    }, 
+    "55": {
+        "Latitude": 47.712520084043916, 
+        "Longitude": -116.94767257712104, 
+        "distance": 22.822335459, 
+        "drive_speed": 65.24397278, 
+        "elevation(ft)": 653, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:21:55.149", 
+        "waze_speed": 67.25719704000001
+    }, 
+    "56": {
+        "Latitude": 47.712489, 
+        "Longitude": -116.92327900000002, 
+        "distance": 24.626796843, 
+        "drive_speed": 68.97220612, 
+        "elevation(ft)": 650, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:22:57.155", 
+        "waze_speed": 71.0227053
+    }, 
+    "57": {
+        "Latitude": 47.71209793458498, 
+        "Longitude": -116.90300276305597, 
+        "distance": 24.998376701, 
+        "drive_speed": 70.83631897, 
+        "elevation(ft)": 656, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:23:45.305", 
+        "waze_speed": 70.4046046736842
+    }, 
+    "58": {
+        "Latitude": 47.71028031646343, 
+        "Longitude": -116.89494259741163, 
+        "distance": 25.452598902000002, 
+        "drive_speed": 68.97220612, 
+        "elevation(ft)": 663, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:24:05.919", 
+        "waze_speed": 70.2601136181818
+    }, 
+    "59": {
+        "Latitude": 47.708870975735, 
+        "Longitude": -116.88603390386, 
+        "distance": 26.001890865999997, 
+        "drive_speed": 71.45768738, 
+        "elevation(ft)": 672, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:24:27.900", 
+        "waze_speed": 70.62325251428572
+    }, 
+    "60": {
+        "Latitude": 47.70866099999999, 
+        "Longitude": -116.874263, 
+        "distance": 26.745671953, 
+        "drive_speed": 70.83631897, 
+        "elevation(ft)": 681, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:24:55.918", 
+        "waze_speed": 72.36788954594594
+    }, 
+    "61": {
+        "Latitude": 47.708295, 
+        "Longitude": -116.858324, 
+        "distance": 27.094261084, 
+        "drive_speed": 67.72946167, 
+        "elevation(ft)": 670, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:25:35.967", 
+        "waze_speed": 69.7178262
+    }, 
+    "62": {
+        "Latitude": 47.707274293003934, 
+        "Longitude": -116.85102330351216, 
+        "distance": 27.118494553, 
+        "drive_speed": 65.24397278, 
+        "elevation(ft)": 666, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:25:55.287", 
+        "waze_speed": 87.2404884
+    }, 
+    "63": {
+        "Latitude": 47.702945644230255, 
+        "Longitude": -116.82814604221848, 
+        "distance": 28.220185335999997, 
+        "drive_speed": 65.86534882, 
+        "elevation(ft)": 654, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:26:55.186", 
+        "waze_speed": 64.8711324
+    }, 
+    "64": {
+        "Latitude": 47.70288596641451, 
+        "Longitude": -116.8277724822102, 
+        "distance": 28.686213585999997, 
+        "drive_speed": 65.24397278, 
+        "elevation(ft)": 654, 
+        "speed_limit": 70, 
+        "time": "25-Mar-2017 11:26:55.951", 
+        "waze_speed": 67.108068
+    }, 
+    "65": {
+        "Latitude": 47.700669822677, 
+        "Longitude": -116.81373112685, 
+        "distance": 29.216243049, 
+        "drive_speed": 59.65163422, 
+        "elevation(ft)": 653, 
+        "speed_limit": 65, 
+        "time": "25-Mar-2017 11:27:35.200", 
+        "waze_speed": 35.31646810909091
+    }, 
+    "66": {
+        "Latitude": 47.693739, 
+        "Longitude": -116.803233, 
+        "distance": 29.714582591, 
+        "drive_speed": 22.36936378, 
+        "elevation(ft)": 649, 
+        "speed_limit": 35, 
+        "time": "25-Mar-2017 11:29:49.912", 
+        "waze_speed": 28.063373890909094
+    }, 
+    "67": {
+        "Latitude": 47.69270000000001, 
+        "Longitude": -116.802225, 
+        "distance": 29.792875337, 
+        "drive_speed": 32.93267441, 
+        "elevation(ft)": 644, 
+        "speed_limit": 35, 
+        "time": "25-Mar-2017 11:30:01.584", 
+        "waze_speed": 31.3170984
+    }, 
+    "68": {
+        "Latitude": 47.690864, 
+        "Longitude": -116.80041399999999, 
+        "distance": 29.943247119, 
+        "drive_speed": 34.79678726, 
+        "elevation(ft)": 643, 
+        "speed_limit": 35, 
+        "time": "25-Mar-2017 11:30:16.842", 
+        "waze_speed": 34.39288485
+    }, 
+    "69": {
+        "Latitude": 47.68906, 
+        "Longitude": -116.798634, 
+        "distance": 30.145192694000002, 
+        "drive_speed": 37.28227234, 
+        "elevation(ft)": 645, 
+        "speed_limit": 35, 
+        "time": "25-Mar-2017 11:30:33.289", 
+        "waze_speed": 35.618897630769226
+    }
+}

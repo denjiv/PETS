@@ -132,10 +132,10 @@ def get_speed_limit(api, lat, lon):
 		return 0
 
 def main():
-	data = prune_drive_to_waze("REI_waze.json", "REI_drive.json")
-	export_data_as_JSON(data, "pruned_REI_data.json")
+	data = prune_drive_to_waze("cda_waze.json", "cda_drive.json")
+	export_data_as_JSON(data, "pruned_cda_data.json")
 	plt.subplot(1, 1, 1)
-	plot_raw_drive_speeds("REI_drive.json")
+	plot_raw_drive_speeds("cda_drive.json")
 	plot_data(data)
 	plt.show()
 

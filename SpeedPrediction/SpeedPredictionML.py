@@ -271,7 +271,7 @@ def export_JSON_data(data, predicted_speeds, file_name):
 
 def main():
 	# data = make_fake_speed_data(5)
-	data = import_JSON_data("pruned_REI_data.json")
+	data = import_JSON_data("pruned_cda_data.json")
 
 	speed_limits = data[0]
 	waze_speeds = data[1]
@@ -294,7 +294,7 @@ def main():
 	plt.plot(range(0, len(data[0])), predicted_speeds, color="m")
 	# plt.scatter ( waze_speeds_a, drive_speeds_a)
 
-	export_JSON_data(data[3], predicted_speeds, "REI_data_w_predictions.json")
+	export_JSON_data(data[3], predicted_speeds, "cda_data_w_predictions.json")
 
 	plt.show()
 
