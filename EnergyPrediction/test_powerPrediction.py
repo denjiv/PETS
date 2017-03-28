@@ -7,6 +7,9 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 from sklearn.linear_model import LinearRegression
 
+import warnings
+warnings.filterwarnings(action="ignore", module="scipy", message="^internal gelsd")
+
 
 # Class to predict the power
 # TO USE:
@@ -31,7 +34,7 @@ class PowerPrediction(object):
         self.MP2Arr         = np.zeros((1,1))
         self.speedArr       = np.zeros((1,1))
         self.totalPowerArr  = np.zeros((1,1))
-        self.prediction  = np.zeros((1,1)) # output
+        self.prediction     = np.zeros((1,6)) # output
 
     # Adds data from inputted JSON files to training data
     # (JSON for car and map data, respectively)
@@ -51,9 +54,8 @@ class PowerPrediction(object):
 
         for i in range(waze_node_count):
             distance.append(json_waze_data[str(i+1)]['distance_from_start'])
-            # print 'distance: ' + str(json_waze_data[str(i+1)]['distance_from_start'])
-            # print 'i: ' + str(i) + '\n'
         print 'TOTAL distance: ' + str(total_distance)
+
         firstGoog = -1
         firstPoint = 0
         waze_count = 0
@@ -70,7 +72,6 @@ class PowerPrediction(object):
         index = 0
 
         for i, data in json_map_data.iteritems():    # Parses map data
-
             if index == 0:
                 past_el = data['ele']
                 index = index + 1
@@ -81,7 +82,6 @@ class PowerPrediction(object):
                 else:
                     neg_elev = neg_elev + (past_el - curr_el)
                 past_el = curr_el
-
             if data['type'] != 'google':
                 if firstPoint == 0:
                     past_sp = data['speed_waze(mph)']
@@ -102,7 +102,6 @@ class PowerPrediction(object):
         for i in json_car_data: # parses car data
             curr_speed = i['Speed (OBD)(mph)']
             speed_array.append(curr_speed)
-
             # if (curr_speed > past_speed):
             #     pos_acc_change = pos_acc_change + curr_speed**2 - past_speed**2
             # else:
@@ -148,6 +147,9 @@ class PowerPrediction(object):
             # print 'MP2 power    (kW): ' + str(MP2_power)
             # print 'engine power (kW): ' + str(engine_power)
             # print 'total power  (kW): ' + str(total_power_output) + '\n'
+			# power = power + i['Power']
+
+            power = power + total_power_output
             count = count + 1
             totalVelocity = totalVelocity + curr_speed
 
@@ -159,12 +161,9 @@ class PowerPrediction(object):
 
         # Add data to overall training arrays
         training_data = np.array([total_distance, totalVelocity * total_distance, pos_acc_change, neg_acc_change, pos_elev, neg_elev])
-        # print training_data            # for testing
         self.trainArr = np.vstack((self.trainArr, training_data))
         self.trainRes = np.vstack((self.trainRes, [[power]]))
-        print '\n'
         print self.trainArr     # for testing
-        print '\n'
         print self.trainRes     # for testing
 
     # Uses inputted dataset to set coefficients, datainput is a
@@ -190,7 +189,7 @@ class PowerPrediction(object):
         power = 0
 
         firstGoog = -1
-        firstPoint = -1
+        firstPoint = 0
 
         count = 0
         past_el = 0
@@ -245,19 +244,19 @@ class PowerPrediction(object):
                         neg_acc_change = neg_acc_change + past_sp**2 - curr_sp**2
                     past_sp = curr_sp
 
-                distance = []
-                total_distance = json_waze_data['total_distance']
-
+                distance = json_waze_data[str(count + 1)]['distance']
                 totalVelocity = curr_sp
-                # distance = json_waze_data[str(count)]['distance']
-                data_in = np.array([total_distance, totalVelocity, pos_acc_change, neg_acc_change, pos_elev, neg_elev])
+                data_in = np.array([distance, totalVelocity, pos_acc_change, neg_acc_change, pos_elev, neg_elev])
+                # print data_in
                 output = np.vstack((output, data_in))
                 past_sp = curr_sp
                 neg_elev = 0
                 pos_elev = 0
 
+        print '\nOUTPUT: '
+        print output
         self.prediction = self.lr.predict(output)
-        print '\n'
+        print '\nPREDICTION OUTPUT: '
         print self.prediction
 
     def plot_power_prediction(self):
@@ -319,7 +318,7 @@ def main():
     p.setup_train(json_car_data, json_map_data, json_waze_data)
     p.train_s()
     p.predict_s(json_map_data, json_waze_data)
-    p.plot_power_prediction()
+    # p.plot_power_prediction()
 
 
 if __name__ == '__main__':

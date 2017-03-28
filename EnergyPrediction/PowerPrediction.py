@@ -11,7 +11,7 @@ MAP_FILE = 'total_nodes.json'
 WAZE_FILE = 'waze_full_output.json'
 
 # Class to predict the power
-# TO USE: 
+# TO USE:
 #	Create object
 #	run setup_train with every set of data to be used for training (NOTE: Currently values are hardcoded,
 #	and the non-hard coded version of the method header is commented out, comment out values that set
@@ -26,8 +26,9 @@ class PowerPrediction(object):
 		self.lr = LinearRegression()
 		self.trainArr = np.zeros((1, 6))
 		self.trainRes = np.zeros((1, 1))
+		self.prediction  # output
 
-	# Adds data from inputted JSON files (JSON for car and map data, 
+	# Adds data from inputted JSON files (JSON for car and map data,
 	# respectively) to training data
 	#def setup_train(self, car_file, map_file, waze_file):
 	def setup_train(self):
@@ -42,7 +43,7 @@ class PowerPrediction(object):
 		car_file = CAR_FILE
 		json_car_file = open(car_file)
 		json_car_str = json_car_file.read()
-		json_car_data = json.loads(json_car_str) 
+		json_car_data = json.loads(json_car_str)
 
 		map_file = MAP_FILE
 		json_map_file = open(map_file)
@@ -84,7 +85,7 @@ class PowerPrediction(object):
 					curr_sp = data['speed']
 					if (curr_sp > past_sp):
 						pos_acc_change = pos_acc_change + curr_sp**2 - past_sp**2
-					else: 
+					else:
 						neg_acc_change = neg_acc_change + past_sp**2 - curr_sp**2
 					past_sp = curr_sp
 
@@ -92,20 +93,14 @@ class PowerPrediction(object):
 		curr_speed = 0
 		past_speed = json_car_data[0]['Speed'] # Sets past speed to first value
 		count = 0;
-		past_time = Double.parseDouble(json_car_data[0]['Device Time'][18:24])
-		curr_time = -1
 
 		for i in json_car_data: # parses car data
-			curr_time = Double.parseDouble(i['Device Time'][18:24])
-			if (curr_time < past_time):
-				past_time -= 60
-			time_diff = curr_time - past_time
-			curr_speed = i['Speed'] * time_diff
+			curr_speed = i['Speed']
 			# if (curr_speed > past_speed):
 			# 	pos_acc_change = pos_acc_change + curr_speed**2 - past_speed**2
 			# else:
 			# 	neg_acc_change = neg_acc_change + past_speed**2 - curr_speed**2
-			power = power + i['Power'] * time_diff
+			power = power + i['Power']
 			count = count + 1
 			totalVelocity = totalVelocity + curr_speed
 
@@ -123,7 +118,7 @@ class PowerPrediction(object):
 		#print self.trainArr	# for testing
 		#print self.trainRes # for testing
 
-	# Uses inputted dataset to set coefficients, datainput is a 
+	# Uses inputted dataset to set coefficients, datainput is a
 	# 5 x [number of samples] array, and energy is a [number of samples] x 1
 	# array, with the columns as following, in decending order, distance,
 	# average speed squared times distance, auxilary power forumla, total
@@ -131,14 +126,14 @@ class PowerPrediction(object):
 	def train_s(self):
 		self.lr.fit(self.trainArr, self.trainRes)
 
-	# Uses trained forumla to calculate predicted power output, 
-	# dataInput is a [number of predictions] x 5 array, and returns a 
+	# Uses trained forumla to calculate predicted power output,
+	# dataInput is a [number of predictions] x 5 array, and returns a
 	# 1 x [number of predictions], with each row being a result
 	#def predict_s(self, map_file, waze_file):
 	def predict_s(self):
 
 		# Same as above
-		output = np.zeros((1, 6)) 
+		output = np.zeros((1, 6))
 		pos_elev = 0
 		neg_elev = 0
 		totalVelocity = 0
@@ -146,7 +141,7 @@ class PowerPrediction(object):
 		neg_acc_change = 0
 		distance = 1
 		power = 0
-		
+
 		map_file = MAP_FILE
 		json_map_file = open(map_file)
 		json_map_str = json_map_file.read()
@@ -184,7 +179,7 @@ class PowerPrediction(object):
 				if (curr_sp > past_sp):
 					pos_acc_change = curr_sp**2 - past_sp**2
 					neg_acc_change = 0
-				else: 
+				else:
 					neg_acc_change = past_sp**2 - curr_sp**2
 					pos_acc_change = 0
 
