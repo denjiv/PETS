@@ -7,7 +7,7 @@ def prune_drive_to_waze(waze_file_name, drive_file_name, get_speed_limits=True):
 
 	#defines how close a drive node must be to a waze node for it to be
 	#considered as occurring in the same location (miles)
-	prox_param = 0.005
+	prox_param = 0.01
 
 	if get_speed_limits:
 		api = overpy.Overpass()
@@ -132,10 +132,10 @@ def get_speed_limit(api, lat, lon):
 		return 0
 
 def main():
-	data = prune_drive_to_waze("cda_waze.json", "cda_drive.json")
-	export_data_as_JSON(data, "pruned_cda_data.json")
+	data = prune_drive_to_waze("to_pies_waze.json", "to_pies.json")
+	export_data_as_JSON(data, "pruned_to_pies_data.json")
 	plt.subplot(1, 1, 1)
-	plot_raw_drive_speeds("cda_drive.json")
+	plot_raw_drive_speeds("to_pies.json")
 	plot_data(data)
 	plt.show()
 

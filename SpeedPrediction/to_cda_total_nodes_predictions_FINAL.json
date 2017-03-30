@@ -108,7 +108,7 @@
         "speed_act(mph)": 27.96170425, 
         "speed_limit(mph)": 30, 
         "speed_predicted(mph)": 34.080679912961216, 
-        "speed_waze(mph)": 35.418147, 
+        "speed_waze(mph)": 30.418147, 
         "time(s)": 43.30500000000029, 
         "type": "WAZE"
     }, 
@@ -336,7 +336,7 @@
         "speed_act(mph)": 31.06855965, 
         "speed_limit(mph)": 30, 
         "speed_predicted(mph)": 27.88980440516461, 
-        "speed_waze(mph)": 20.1324204, 
+        "speed_waze(mph)": 30.1324204, 
         "time(s)": 131.15400000000227, 
         "type": "WAZE"
     }, 
@@ -396,7 +396,7 @@
         "speed_act(mph)": 29.82581711, 
         "speed_limit(mph)": 30, 
         "speed_predicted(mph)": 27.923798021913683, 
-        "speed_waze(mph)": 24.6062916, 
+        "speed_waze(mph)": 32.6062916, 
         "time(s)": 147.32200000000012, 
         "type": "WAZE"
     }, 
@@ -456,7 +456,7 @@
         "speed_act(mph)": 39.14638519, 
         "speed_limit(mph)": 30, 
         "speed_predicted(mph)": 27.923798021913683, 
-        "speed_waze(mph)": 24.606291600000002, 
+        "speed_waze(mph)": 34.606291600000002, 
         "time(s)": 154.98400000000402, 
         "type": "WAZE"
     }, 
@@ -476,7 +476,7 @@
         "speed_act(mph)": 39.14638519, 
         "speed_limit(mph)": 30, 
         "speed_predicted(mph)": 27.930722724595114, 
-        "speed_waze(mph)": 25.948452959999997, 
+        "speed_waze(mph)": 35.948452959999997, 
         "time(s)": 158.97200000000157, 
         "type": "WAZE"
     }, 
@@ -643,7 +643,7 @@
         "speed_act(mph)": 32.93267441, 
         "speed_limit(mph)": 30, 
         "speed_predicted(mph)": 27.929655466172644, 
-        "speed_waze(mph)": 25.7247594, 
+        "speed_waze(mph)": 35.7247594, 
         "time(s)": 193.25100000000384, 
         "type": "WAZE"
     }, 
@@ -662,8 +662,8 @@
         "lon": -117.35769800000001, 
         "speed_act(mph)": 32.31130219, 
         "speed_limit(mph)": 30, 
-        "speed_predicted(mph)": 20.94123353467207, 
-        "speed_waze(mph)": 19.3867752, 
+        "speed_predicted(mph)": 30.94123353467207, 
+        "speed_waze(mph)": 39.3867752, 
         "time(s)": 193.97699999999895, 
         "type": "WAZE"
     }, 

@@ -1,0 +1,72 @@
+{
+    "1": {
+        "Latitude": 47.67580922399118, 
+        "Longitude": -122.314355364418, 
+        "distance": 0.08450645600000001, 
+        "drive_speed": 29.82581711, 
+        "elevation(ft)": 35, 
+        "speed_limit": 25, 
+        "time": "59:59.3", 
+        "waze_speed": 25.44514245
+    }, 
+    "2": {
+        "Latitude": 47.675782223994915, 
+        "Longitude": -122.30515511656759, 
+        "distance": 0.49088309, 
+        "drive_speed": 31.06855965, 
+        "elevation(ft)": 48, 
+        "speed_limit": 25, 
+        "time": "00:50.1", 
+        "waze_speed": 30.1986306
+    }, 
+    "3": {
+        "Latitude": 47.67577200000001, 
+        "Longitude": -122.30098768422323, 
+        "distance": 0.6673524540000001, 
+        "drive_speed": 24.85484695, 
+        "elevation(ft)": 38, 
+        "speed_limit": 30, 
+        "time": "01:14.4", 
+        "waze_speed": 18.64113
+    }, 
+    "4": {
+        "Latitude": 47.675772, 
+        "Longitude": -122.30065300000001, 
+        "distance": 0.9177649670000001, 
+        "drive_speed": 11.80605221, 
+        "elevation(ft)": 39, 
+        "speed_limit": 30, 
+        "time": "01:17.4", 
+        "waze_speed": 30.04950156
+    }, 
+    "5": {
+        "Latitude": 47.668524, 
+        "Longitude": -122.30062000000001, 
+        "distance": 1.206081111, 
+        "drive_speed": 0, 
+        "elevation(ft)": 4, 
+        "speed_limit": 30, 
+        "time": "02:36.4", 
+        "waze_speed": 19.493295942857145
+    }, 
+    "6": {
+        "Latitude": 47.667977, 
+        "Longitude": -122.300618, 
+        "distance": 1.250198452, 
+        "drive_speed": 24.23347664, 
+        "elevation(ft)": 0, 
+        "speed_limit": 25, 
+        "time": "02:42.3", 
+        "waze_speed": 31.764485519999997
+    }, 
+    "7": {
+        "Latitude": 47.66492872783888, 
+        "Longitude": -122.3008186831612, 
+        "distance": 1.4229395900000001, 
+        "drive_speed": 34.79678726, 
+        "elevation(ft)": -7, 
+        "speed_limit": 25, 
+        "time": "03:06.2", 
+        "waze_speed": 22.369356
+    }
+}

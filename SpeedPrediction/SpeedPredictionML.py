@@ -19,6 +19,7 @@ from pylab import ion, ioff, figure, draw, contourf, clf, show, hold, plot
 from scipy import diag, arange, meshgrid, where
 from numpy.random import multivariate_normal
 import math
+from math import radians, cos, sin, asin, sqrt, fabs
 
 def train_dataset(speed_limits, waze_speeds, y_train):
 
@@ -172,7 +173,7 @@ def group_into_sets(speed_limits, waze_speeds, drive_speeds):
 
 			n = buildNetwork(ds.indim,8,8,ds.outdim,recurrent=True)
 			t = BackpropTrainer(n,learningrate=0.001,momentum=0.05,verbose=True)
-			t.trainOnDataset(ds,300)
+			t.trainOnDataset(ds,1000)
 			t.testOnData(verbose=True)
 
 			for i in range(len(group)):
@@ -249,13 +250,15 @@ def import_JSON_data(file_name):
 	drive_speeds = []
 	locations = []
 	times = []
+	distances = []
 
 	for i in range (1, len(data) + 1):
 		speed_limits.append(data[str(i)]["speed_limit"])
 		waze_speeds.append(data[str(i)]["waze_speed"])
 		drive_speeds.append(data[str(i)]["drive_speed"])
+		distances.append(data[str(i)]["distance"])
 
-	return (speed_limits, waze_speeds, drive_speeds, data)
+	return (speed_limits, waze_speeds, drive_speeds, data, distances)
 
 def export_JSON_data(data, predicted_speeds, file_name):
 
@@ -269,6 +272,41 @@ def export_JSON_data(data, predicted_speeds, file_name):
 					indent=4,
 					ensure_ascii=False  )
 
+def plot_raw_drive_speeds(drive_file_name):
+
+	with open(drive_file_name) as drive_file:
+			drive_data = json.load(drive_file) #drive data is encoded as dicts inside a list
+
+	distances = []
+	drive_speeds = []
+
+	distances.append(0)
+	drive_speeds.append(drive_data[1]["Speed (OBD)(mph)"])
+
+	for i in range(1, len(drive_data)):
+		print("processing raw drive data" + str(i))
+		distances.append(distances[i - 1] 
+			+ get_distance_between_coords (drive_data[i - 1]["Latitude"], drive_data[i - 1]["Longitude"],
+			 drive_data[i]["Latitude"], drive_data[i]["Longitude"]))
+		drive_speeds.append(drive_data[i]["Speed (OBD)(mph)"])
+
+	plt.plot(distances, drive_speeds, color="y")
+
+def get_distance_between_coords (lat1, lon1, lat2, lon2):
+	"""
+	Calculate the great circle distance between two points 
+	on the earth (specified in decimal degrees)
+	"""
+	# convert decimal degrees to radians 
+	lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
+	# haversine formula 
+	dlon = fabs(lon2 - lon1) 
+	dlat = fabs(lat2 - lat1) 
+	a = sin(dlat/2.0)**2.0 + cos(lat1) * cos(lat2) * sin(dlon/2.0)**2.0
+	c = 2.0 * asin(sqrt(a)) 
+	mi = 3956.0 * c
+	return mi
+
 def main():
 	# data = make_fake_speed_data(5)
 	data = import_JSON_data("pruned_cda_data.json")
@@ -276,6 +314,7 @@ def main():
 	speed_limits = data[0]
 	waze_speeds = data[1]
 	drive_speeds = data[2]
+	distances = data[4]
 
 	speed_limits_a = np.asarray(speed_limits)
 	waze_speeds_a = np.asarray(waze_speeds)
@@ -288,10 +327,11 @@ def main():
 
 	plt.subplot(1, 1, 1)
 	# plt.scatter(range(0, len(predicted_speeds)), predicted_speeds)
-	plt.plot(range(0, len(data[0])), drive_speeds, color="r")
-	plt.plot(range(0, len(data[0])), speed_limits, color="g")
-	plt.plot(range(0, len(data[0])), waze_speeds, color="b")
-	plt.plot(range(0, len(data[0])), predicted_speeds, color="m")
+	plt.plot(distances, drive_speeds, color="r")
+	plt.plot(distances, speed_limits, color="g")
+	plt.plot(distances, waze_speeds, color="b")
+	plt.plot(distances, predicted_speeds, color="m")
+	plot_raw_drive_speeds("cda_drive.json")
 	# plt.scatter ( waze_speeds_a, drive_speeds_a)
 
 	export_JSON_data(data[3], predicted_speeds, "cda_data_w_predictions.json")
