@@ -31,29 +31,39 @@ def plot_speeds_v_time(data):
 
 def plot_speeds_v_dist(data):
 	distances = []
+	limit_distances = []
 	speed_limits = []
 	waze_speeds = []
 	drive_speeds = []
 	predicted_speeds = []
+	node = 0
 
 	for i in range(1, len(data) + 1):
 		if (data[str(i)]["type"].strip() == "WAZE"):
 			distances.append(data[str(i)]["distance(mi)"])
+			limit_distances.append(data[str(i)]["distance(mi)"])
+			if node > 0:
+				print speed_limits[node - 1], data[str(i)]["speed_limit(mph)"]
+			if (node > 0 and speed_limits[node - 1] != data[str(i)]["speed_limit(mph)"]):
+				limit_distances.append(data[str(i)]["distance(mi)"] - 0.00001)
+				speed_limits.append(speed_limits[node - 1])
+				node = node + 1
 			speed_limits.append(data[str(i)]["speed_limit(mph)"])
 			drive_speeds.append(data[str(i)]["speed_act(mph)"])
 			waze_speeds.append(data[str(i)]["speed_waze(mph)"])
 			predicted_speeds.append(data[str(i)]["speed_predicted(mph)"])
+			node = node + 1
 			
 	plt.subplot(1, 1, 1)
-	plt.plot(distances, drive_speeds, color="r")
-	plt.plot(distances, speed_limits, color="g")
-	plt.plot(distances, waze_speeds, color="b")
-	plt.plot(distances, predicted_speeds, color="m")
+	#plt.plot(distances, drive_speeds, color="r")
+	lim, = plt.plot(limit_distances, speed_limits, color="g", label='Speed Limits')
+	p16, = plt.plot(distances, waze_speeds, color="b", label='Predicted Speed after 16 drives')
+	p1, = plt.plot(distances, predicted_speeds, color="m", label='Predicted Speed after 1 drive')
 
 	plt.ylabel('Speed (mph)')
 	plt.xlabel('Elapsed Distance (mi)')
 	plt.title("Work Route: Speeds vs. Distance")
-	#plt.legend([drive_speeds,speed_limits,waze_speeds,predicted_speeds],['Drive Speeds', 'Speed Limits', 'Traffic Speeds', 'Speed Predictions'])
+	#plt.legend(handles=[lim, p16, p1])
 
 def plot_actual_waze_error(data, raw_data):
 	waze_distances = []
@@ -128,6 +138,23 @@ def plot_raw_drive_speeds(raw_data):
 		drive_speeds.append(raw_data[i]["Speed (OBD)(mph)"])
 
 	plt.plot(distances, drive_speeds, color="y")
+
+def plot_elevation_v_time(data):
+	elevations = []
+	time = []
+	for i in range(1, len(data) + 1):
+		if (data[str(i)]["type"] == "RAW"):
+			for j in range(1, len(data) + 1):
+				if (data[str(j)]["type"] == "google"):
+					if (get_distance_between_coords(data[str(i)]["lat"], data[str(i)]["lon"], data[str(j)]["lat"], data[str(j)]["lon"]) < 0.005):
+						time.append(data[str(i)]["time(s)"])
+						elevations.append(data[str(j)]["ele"])
+						break
+
+	plt.subplot(1, 1, 1)
+	plt.plot(time, elevations)
+
+
 
 def add_raw_drive_points(data, raw_data):
 	node = len(data) + 1
@@ -209,14 +236,19 @@ def main():
 
 	with open("cda_drive.json") as data_file:
 		raw_data = json.load(data_file)
+
+	with open("cda_total_nodes_FINAL.json") as data_file:
+		new_data = json.load(data_file)
 	
+	plot_elevation_v_time(new_data)
 	#plot_speeds_v_time(data)
-	plot_speeds_v_dist(data)
-	plot_actual_waze_error(data, raw_data)
+	#plot_speeds_v_dist(data)
+	#plot_actual_waze_error(data, raw_data)
 	#plot_actual_v_waze(data)
-	plot_raw_drive_speeds(raw_data)
+	#plot_raw_drive_speeds(raw_data)
 	print len(data)
-	add_raw_drive_points(data, raw_data)
+	#add_raw_drive_points(data, raw_data)
+
 	plt.show()
 
 
